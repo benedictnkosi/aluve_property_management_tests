@@ -8,7 +8,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import utils.ConfigFileReader;
 
-import java.util.concurrent.TimeUnit;
+import java.time.Duration;
 
 public class WebDriverManager {
 
@@ -63,13 +63,12 @@ public class WebDriverManager {
 
         if (this.configReader.getBrowserWindowSize()) driver.manage().window().maximize();
 
-        driver.manage().timeouts().implicitlyWait(this.configReader.getImplicitlyWait(), TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 
         return driver;
     }
 
     public void closeDriver() {
-
         driver.quit();
     }
 

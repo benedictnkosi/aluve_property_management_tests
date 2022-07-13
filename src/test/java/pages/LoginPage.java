@@ -5,29 +5,20 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import java.time.Duration;
+
 
 public class LoginPage {
     WebDriver driver;
-    Homepage homepage;
-
-    By userName = By.id("username");
-    By password = By.id("password");
-    By loginButton = By.id("cmdLogin");
-    By demoButton = By.id("demobutton");
-    By signupButton = By.linkText("SignupPage");
-    By logoutButton = By.linkText("Sign Out");
-    By loginError = By.id("lbl_message");
-    By userMenuButton = By.id("user_name");
-
+    By password = By.id("secret");
+    By loginButton = By.xpath("//button[@type=\"submit\"]");
+    By loginPageHeader = By.xpath("//h2[@class='login-heading']");
+    By loggedInHeader = By.xpath("//h1[text()='Guesthouse Management']");
 
     public LoginPage(WebDriver driver) {
         this.driver = driver;
     }
 
-
-    public void setUserName(String strUserName) {
-        driver.findElement(userName).sendKeys(strUserName);
-    }
 
     //set password in textbox
     public void setPassword(String strPassword) {
@@ -36,45 +27,23 @@ public class LoginPage {
 
     //set password in textbox
     public void clickLoginButton() {
-
         driver.findElement(loginButton).click();
-
-
     }
 
     public boolean isUserLoggedIn() {
         try {
-            WebDriverWait wait = new WebDriverWait(driver, 10);
-            wait.until(ExpectedConditions.presenceOfElementLocated(logoutButton));
+            WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+            wait.until(ExpectedConditions.presenceOfElementLocated(loggedInHeader));
             return true;
         } catch (Exception ex) {
             return false;
         }
     }
 
-    public void LoginUser(String username, String password) {
-
-        this.setUserName(username);
+    public void LoginUser(String password) {
         this.setPassword(password);
         this.clickLoginButton();
-
-        WebDriverWait wait = new WebDriverWait(driver, 10);
-        wait.until(ExpectedConditions.presenceOfElementLocated(logoutButton));
-
-
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+        wait.until(ExpectedConditions.presenceOfElementLocated(loggedInHeader));
     }
-
-    public void startDemo() {
-
-        driver.findElement(demoButton).click();
-
-    }
-
-    public void goToSignUpNewUser() {
-
-        driver.findElement(signupButton).click();
-
-
-    }
-
 }

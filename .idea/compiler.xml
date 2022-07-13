@@ -6,9 +6,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="aluve_property_management_tests" />
+        <module name="MoneyAppTesting" />
         <module name="moneyapp_cucumber_tests" />
         <module name="MoneyAppTesting_Cucumber" />
-        <module name="MoneyAppTesting" />
       </profile>
     </annotationProcessing>
   </component>

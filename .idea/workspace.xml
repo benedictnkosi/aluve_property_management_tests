@@ -1,29 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="211edf1b-d4c7-4348-b501-81bba3b5dcbd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/cucumber/TestContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinition/Hooks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/MoneyAppTests/RunCucumberTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Feature/Budget_Test.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Feature/Config_Test.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Feature/LogIn_Test.feature" beforeDir="false" afterPath="$PROJECT_DIR$/Feature/LogIn_Test.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/MoneyAppTests/BaseClass.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/MoneyAppTests/WebDriverManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/managers/WebDriverManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/PageObjectManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/managers/PageObjectManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinition/Budget_Test_Steps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinition/Budget_Test_Steps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinition/Config_Test_Steps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinition/Config_Test_Steps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/properties/Configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/properties/Configuration.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/MoneyAppTests/TestRunner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/managers/PageObjectManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/managers/PageObjectManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/managers/WebDriverManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/managers/WebDriverManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/BudgetPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/ConfigPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/Homepage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/SignupPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinition/Budget_Test_Steps.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinition/Config_Test_Steps.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinition/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinition/Hooks.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinition/Login_Test_Steps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinition/Login_Test_Steps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/MoneyAppTests/BaseClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/MoneyAppTests/BaseClass.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/ConfigPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/ConfigPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/Homepage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/Homepage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/PageObjectManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/PageObjectManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/stepDefinition/Budget_Test_Steps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepDefinition/Budget_Test_Steps.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/stepDefinition/Config_Test_Steps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepDefinition/Config_Test_Steps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/DTO/BudgetDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/DTO/BudgetDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/DTO/CustomTransactionNameDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/DTO/CustomTransactionNameDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/DTO/LoginDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/DTO/LoginDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/moneyapp_cucumber_tests.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/MoneyAppTests/BaseClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/MoneyAppTests/TestRunner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/BudgetPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/ConfigPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/Homepage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/LoginPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/PageObjectManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/SignupPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/properties/Application.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/stepDefinition/Budget_Test_Steps.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/stepDefinition/Config_Test_Steps.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/stepDefinition/Login_Test_Steps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepDefinition/Login_Test_Steps.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/utils/ConfigFileReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utils/ConfigFileReader.class" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/target/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,115 +52,6 @@
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/stepDefinition/Budget_Test_Steps.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="33" column="57" selection-start-line="33" selection-start-column="57" selection-end-line="33" selection-end-column="57" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/stepDefinition/Login_Test_Steps.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="31" column="57" lean-forward="true" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="57" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2833#2834#0" expanded="true" />
-                <element signature="e#2879#2880#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/utils/ConfigFileReader.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="35" column="11" lean-forward="true" selection-start-line="35" selection-start-column="11" selection-end-line="35" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/stepDefinition/Config_Test_Steps.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="89" column="45" lean-forward="true" selection-start-line="89" selection-start-column="45" selection-end-line="89" selection-end-column="45" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/stepDefinition/Hooks.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#115#116#0" expanded="true" />
-                <element signature="e#152#153#0" expanded="true" />
-                <element signature="e#534#535#0" expanded="true" />
-                <element signature="e#596#597#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/cucumber/TestContext.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#559#560#0" expanded="true" />
-                <element signature="e#598#599#0" expanded="true" />
-                <element signature="e#358#359#0" expanded="true" />
-                <element signature="e#397#398#0" expanded="true" />
-                <element signature="e#452#453#0" expanded="true" />
-                <element signature="e#492#493#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/managers/WebDriverManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="191">
-              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/managers/PageObjectManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="29" lean-forward="true" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -263,12 +175,8 @@
       </list>
     </option>
   </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="10" />
@@ -276,6 +184,7 @@
     <option name="width" value="1346" />
     <option name="height" value="698" />
   </component>
+  <component name="ProjectId" id="2Bsu4Tu95prY6LkcUZ92Vl7mTbT" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -317,14 +226,18 @@
       <pane id="Scope" />
     </panes>
   </component>
-  <component name="PropertiesComponent">
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java" />
-    <property name="project.structure.last.edited" value="SDKs" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="stepDefinition" />
@@ -341,19 +254,78 @@
       <recent name="C:\Users\Lenovo\IdeaProjects\MoneyAppTesting_Cucumber\src\test\java" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="JUnit.TestRunner (1)">
+  <component name="RunManager" selected="Cucumber Java.Scenario: Successful Login with Valid Credentials">
+    <configuration name="Feature: Budget_Test" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/Feature/Budget_Test.feature" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="aluve_property_management_tests" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: Budget_Test" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Feature: LogIn_Test" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/Feature/LogIn_Test.feature" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="aluve_property_management_tests" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: LogIn_Test" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Successful Login with Valid Credentials" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="4" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/Feature/LogIn_Test.feature" />
+      <option name="GLUE" value="stepDefinition" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="aluve_property_management_tests" />
+      <option name="NAME_FILTER" value="^Successful Login with Valid Credentials$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter --name &quot;^Successful Login with Valid Credentials$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Successful Login with Valid Credentials" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RunCucumberTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="aluve_property_management_tests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="MoneyAppTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="MoneyAppTests" />
+      <option name="MAIN_CLASS_NAME" value="MoneyAppTests.RunCucumberTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MoneyAppTesting_Cucumber" />
       <extension name="coverage">
@@ -397,46 +369,6 @@
       <option name="MAIN_CLASS_NAME" value="MoneyAppTests.BudgetTest" />
       <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="CLASS" />
-      <option name="PARAMETERS" value="" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="true" />
-      <option name="PROPERTIES_FILE" value="" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C:/Users/Lenovo/IdeaProjects/MoneyAppTesting/test-output/testng-failed.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="MoneyAppTesting" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/test-output/testng-failed.xml" />
-      <option name="PACKAGE_NAME" value="logic" />
-      <option name="MAIN_CLASS_NAME" value="logic.MoneyAppTesting" />
-      <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <option name="PARAMETERS" value="" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="true" />
-      <option name="PROPERTIES_FILE" value="" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C:/Users/Lenovo/IdeaProjects/MoneyAppTesting/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="MoneyAppTesting" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
-      <option name="PACKAGE_NAME" value="logic" />
-      <option name="MAIN_CLASS_NAME" value="logic.MoneyAppTesting" />
-      <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="SUITE" />
       <option name="PARAMETERS" value="" />
       <option name="OUTPUT_DIRECTORY" value="" />
       <option name="TEST_SEARCH_SCOPE">
@@ -516,23 +448,26 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Cucumber Java.Feature: Budget_Test" />
+      <item itemvalue="Cucumber Java.Feature: LogIn_Test" />
+      <item itemvalue="Cucumber Java.Scenario: Successful Login with Valid Credentials" />
+      <item itemvalue="JUnit.RunCucumberTest" />
       <item itemvalue="JUnit.TestRunner" />
-      <item itemvalue="JUnit.TestRunner (1)" />
       <item itemvalue="TestNG.BudgetTest" />
       <item itemvalue="TestNG.LoginTest" />
       <item itemvalue="TestNG.MoneyAppTesting" />
-      <item itemvalue="TestNG.C:/Users/Lenovo/IdeaProjects/MoneyAppTesting/test-output/testng-failed.xml" />
-      <item itemvalue="TestNG.C:/Users/Lenovo/IdeaProjects/MoneyAppTesting/testng.xml" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestRunner (1)" />
+        <item itemvalue="Cucumber Java.Scenario: Successful Login with Valid Credentials" />
+        <item itemvalue="JUnit.RunCucumberTest" />
+        <item itemvalue="Cucumber Java.Feature: LogIn_Test" />
+        <item itemvalue="Cucumber Java.Feature: Budget_Test" />
         <item itemvalue="JUnit.TestRunner" />
-        <item itemvalue="TestNG.C:/Users/Lenovo/IdeaProjects/MoneyAppTesting/testng.xml" />
-        <item itemvalue="TestNG.C:/Users/Lenovo/IdeaProjects/MoneyAppTesting/test-output/testng-failed.xml" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -658,22 +593,7 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="RECENTLY_FILTERED_USER_GROUPS">
-                <collection />
-              </option>
-              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-                <collection />
-              </option>
-              <option name="COLUMN_ORDER">
-                <list>
-                  <option value="0" />
-                  <option value="1" />
-                  <option value="2" />
-                  <option value="3" />
-                </list>
-              </option>
-            </State>
+            <State />
           </value>
         </entry>
       </map>
@@ -686,6 +606,17 @@
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/stepDefinition/Login_Test_Steps.java</url>
+          <line>74</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
