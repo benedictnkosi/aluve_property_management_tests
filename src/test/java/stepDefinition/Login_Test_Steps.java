@@ -55,7 +55,7 @@ public class Login_Test_Steps {
     @When("^User LogOut from the Application$")
     public void user_LogOut_from_the_Application() {
         log.debug("Logout application");
-        log.debug("Logout application test");
+        log.debug("Logout application  ");
     }
 
     @Then("^User is redirected to the Login page$")
