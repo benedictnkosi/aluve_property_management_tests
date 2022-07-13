@@ -4,17 +4,10 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="211edf1b-d4c7-4348-b501-81bba3b5dcbd" name="Default Changelist" comment="code refactoring&#10;--started using configuration file with java properties class&#10;--Added a page object manager class&#10;--Added Web Driver manager class">
+    <list default="true" id="211edf1b-d4c7-4348-b501-81bba3b5dcbd" name="Default Changelist" comment="zero warnings">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/DTO/BudgetDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/DTO/CustomTransactionNameDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/DTO/LoginDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cucumber/TestContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cucumber/TestContext.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/managers/PageObjectManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/managers/PageObjectManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/managers/WebDriverManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/managers/WebDriverManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinition/Login_Test_Steps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinition/Login_Test_Steps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utils/ConfigFileReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/ConfigFileReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/LoginPage.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -467,7 +460,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657712184424</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="zero warnings">
+      <created>1657712561506</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1657712561506</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -583,7 +583,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added budget test for adding budget item" />
     <MESSAGE value="code refactoring&#10;--started using configuration file with java properties class&#10;--Added a page object manager class&#10;--Added Web Driver manager class" />
-    <option name="LAST_COMMIT_MESSAGE" value="code refactoring&#10;--started using configuration file with java properties class&#10;--Added a page object manager class&#10;--Added Web Driver manager class" />
+    <MESSAGE value="zero warnings" />
+    <option name="LAST_COMMIT_MESSAGE" value="zero warnings" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
