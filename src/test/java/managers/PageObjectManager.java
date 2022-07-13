@@ -5,7 +5,7 @@ import pages.LoginPage;
 
 public class PageObjectManager {
 
-    private WebDriver driver;
+    private final WebDriver driver;
 
     private LoginPage loginPage;
 

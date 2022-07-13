@@ -15,13 +15,12 @@ import java.io.IOException;
 import java.util.Properties;
 
 public class ConfigFileReader {
-    private final String propertyFilePath = "properties//Configuration.properties";
-    private Properties properties;
+    private final Properties properties;
 
     public ConfigFileReader() {
         try {
             BufferedReader reader = new BufferedReader(new FileReader("properties//Configuration.properties"));
-            System.out.println(reader.toString());
+            System.out.println(reader);
             this.properties = new Properties();
 
             try {
@@ -56,33 +55,12 @@ public class ConfigFileReader {
     }
 
 
-    public long getImplicitlyWait() {
-        String implicitlyWait = properties.getProperty("implicitlyWait");
-        if (implicitlyWait != null) {
-            try {
-                return Long.parseLong(implicitlyWait);
-            } catch (NumberFormatException e) {
-                throw new RuntimeException("Not able to parse value : " + implicitlyWait + " in to Long");
-            }
-        }
-        return 30;
-    }
-
     public String getApplicationUrl() {
         String url = this.properties.getProperty("baseUrl");
         if (url != null) {
             return url;
         } else {
             throw new RuntimeException("url not specified in the Configuration.properties file.");
-        }
-    }
-
-    public String getPropertyByName(String propertyName) {
-        String propertyValue = this.properties.getProperty(propertyName);
-        if (propertyValue != null) {
-            return propertyValue;
-        } else {
-            throw new RuntimeException(propertyName + " not specified in the Configuration.properties file.");
         }
     }
 

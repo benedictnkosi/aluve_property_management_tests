@@ -33,15 +33,9 @@ public class Login_Test_Steps {
     }
 
     @Given("^User is on Login Page$")
-    public void user_is_on_Login_Page() throws Throwable {
-        OpenLoginPage();
+    public void user_is_on_Login_Page() {
+        loginPage.OpenLoginPage();
     }
-
-    public void OpenLoginPage() {
-        configReader = new ConfigFileReader();
-        driver.get(configReader.getApplicationUrl());
-    }
-
 
     @When("^User logs in with \"(.*)\"$")
     public void user_enters_UserName(String password) {
@@ -59,13 +53,13 @@ public class Login_Test_Steps {
     }
 
     @When("^User LogOut from the Application$")
-    public void user_LogOut_from_the_Application() throws Throwable {
+    public void user_LogOut_from_the_Application() {
         log.debug("Logout application");
         log.debug("Logout application");
     }
 
     @Then("^User is redirected to the Login page$")
-    public void user_is_redirected_to_the_Login_page() throws Throwable {
+    public void user_is_redirected_to_the_Login_page() {
         log.debug("Logout application");
     }
 

@@ -17,7 +17,7 @@ public class WebDriverManager {
     private static DriverType driverType;
     private static EnvironmentType environmentType;
     private WebDriver driver;
-    private ConfigFileReader configReader;
+    private final ConfigFileReader configReader;
 
     public WebDriverManager() {
         configReader = new ConfigFileReader();

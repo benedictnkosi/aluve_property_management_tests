@@ -5,9 +5,9 @@ import managers.WebDriverManager;
 import utils.ConfigFileReader;
 
 public class TestContext {
-    private WebDriverManager webDriverManager;
-    private PageObjectManager pageObjectManager;
-    private ConfigFileReader configFileReader;
+    private final WebDriverManager webDriverManager;
+    private final PageObjectManager pageObjectManager;
+    private final ConfigFileReader configFileReader;
 
     public TestContext() {
         webDriverManager = new WebDriverManager();
