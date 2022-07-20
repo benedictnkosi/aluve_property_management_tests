@@ -5,7 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="211edf1b-d4c7-4348-b501-81bba3b5dcbd" name="Default Changelist" comment="zero warnings">
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinition/Login_Test_Steps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinition/Login_Test_Steps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utils/AluveRestAssured.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/DTO/BudgetDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/DTO/CustomTransactionNameDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/DTO/LoginDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/LoginPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/stepDefinition/Login_Test_Steps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepDefinition/Login_Test_Steps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/utils/ConfigFileReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utils/ConfigFileReader.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -200,7 +208,8 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2"
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -219,7 +228,7 @@
       <recent name="C:\Users\Lenovo\IdeaProjects\MoneyAppTesting_Cucumber\src\test\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: Successful Login with Valid Credentials">
+  <component name="RunManager" selected="JUnit.RunCucumberTest">
     <configuration name="Feature: Budget_Test" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/Feature/Budget_Test.feature" />
@@ -424,8 +433,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Scenario: Successful Login with Valid Credentials" />
         <item itemvalue="JUnit.RunCucumberTest" />
+        <item itemvalue="Cucumber Java.Scenario: Successful Login with Valid Credentials" />
         <item itemvalue="Cucumber Java.Feature: LogIn_Test" />
         <item itemvalue="Cucumber Java.Feature: Budget_Test" />
         <item itemvalue="JUnit.TestRunner" />
@@ -479,7 +488,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657712959587</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="zero warnings">
+      <created>1657713002394</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1657713002394</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
