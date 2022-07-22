@@ -5,13 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="211edf1b-d4c7-4348-b501-81bba3b5dcbd" name="Default Changelist" comment="zero warnings">
-      <change afterPath="$PROJECT_DIR$/src/test/java/utils/AluveRestAssured.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Elements/Aluve_Management_Elements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Elements/Elements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Elements/RoomElements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinition/Book_Now.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinition/RoomSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/Book_Now.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/Room.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/DTO/BudgetDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/DTO/CustomTransactionNameDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/DTO/LoginDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/LoginPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/MoneyAppTests/RunCucumberTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MoneyAppTests/RunCucumberTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/managers/PageObjectManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/managers/PageObjectManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/managers/WebDriverManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/managers/WebDriverManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinition/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinition/Hooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinition/Login_Test_Steps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinition/Login_Test_Steps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utils/ConfigFileReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/ConfigFileReader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/stepDefinition/Login_Test_Steps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepDefinition/Login_Test_Steps.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/utils/ConfigFileReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utils/ConfigFileReader.class" afterDir="false" />
     </list>
@@ -87,6 +99,14 @@
         </map>
       </branch-storage>
     </excluded-from-favorite>
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -203,16 +223,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
-  }
-}]]></component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/stepDefinition" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Toshiba\aluve_property_management_tests\src\test\java\MoneyAppTests" />
+      <recent name="C:\Users\Lenovo\Documents\GitHub\moneyapp_cucumber_tests\src\test\java" />
+      <recent name="C:\Users\Lenovo\Documents\GitHub\moneyapp_cucumber_tests" />
+      <recent name="C:\Users\Lenovo\Documents\GitHub\moneyapp_cucumber_tests\Feature" />
+      <recent name="C:\Users\Lenovo\IdeaProjects\MoneyAppTesting_Cucumber\Feature" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Toshiba\aluve_property_management_tests\Feature" />
+      <recent name="C:\Users\Toshiba\aluve_property_management_tests\src\test\resources" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="stepDefinition" />
       <recent name="DTO" />
@@ -220,38 +249,14 @@
       <recent name="utils" />
       <recent name="pages" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Lenovo\Documents\GitHub\moneyapp_cucumber_tests\src\test\java" />
-      <recent name="C:\Users\Lenovo\Documents\GitHub\moneyapp_cucumber_tests" />
-      <recent name="C:\Users\Lenovo\Documents\GitHub\moneyapp_cucumber_tests\Feature" />
-      <recent name="C:\Users\Lenovo\IdeaProjects\MoneyAppTesting_Cucumber\Feature" />
-      <recent name="C:\Users\Lenovo\IdeaProjects\MoneyAppTesting_Cucumber\src\test\java" />
-    </key>
   </component>
-  <component name="RunManager" selected="JUnit.RunCucumberTest">
-    <configuration name="Feature: Budget_Test" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/Feature/Budget_Test.feature" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="aluve_property_management_tests" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: Budget_Test" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Cucumber Java.Functionality of 'Room'  Colum">
     <configuration name="Feature: LogIn_Test" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/Feature/LogIn_Test.feature" />
+      <option name="GLUE" value="stepDefinition" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="aluve_property_management_tests" />
+      <module name="Aluve-PMS-Testing" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
       <option name="SUGGESTED_NAME" value="Feature: LogIn_Test" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
@@ -265,19 +270,40 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Functionality of 'Room'  Colum" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Room.feature" />
+      <option name="GLUE" value="stepDefinition" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="Aluve-PMS-Testing" />
+      <option name="NAME_FILTER" value="^Validating the functionality of \'Room\' column$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Validating the functionality of \'Room\' column$&quot;" />
+      <shortenClasspath name="NONE" />
+      <option name="SUGGESTED_NAME" value="Scenario: Validating the functionality of 'Room' column" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Scenario: Successful Login with Valid Credentials" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="4" />
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/Feature/LogIn_Test.feature" />
       <option name="GLUE" value="stepDefinition" />
-      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
-      <module name="aluve_property_management_tests" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="Aluve-PMS-Testing" />
       <option name="NAME_FILTER" value="^Successful Login with Valid Credentials$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter --name &quot;^Successful Login with Valid Credentials$&quot;" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Successful Login with Valid Credentials$&quot;" />
       <option name="SUGGESTED_NAME" value="Scenario: Successful Login with Valid Credentials" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -285,47 +311,42 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RunCucumberTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="aluve_property_management_tests" />
+    <configuration name="Scenario: Validate book now working as expected" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Book_Now.feature" />
+      <option name="GLUE" value="stepDefinition" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="Aluve-PMS-Testing" />
+      <option name="NAME_FILTER" value="^Validate book now working as expected$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Validate book now working as expected$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Validate book now working as expected" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="MoneyAppTests.*" />
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="MoneyAppTests" />
-      <option name="MAIN_CLASS_NAME" value="MoneyAppTests.RunCucumberTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MoneyAppTesting_Cucumber" />
+    <configuration name="Scenario: " type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Book_Now.feature" />
+      <option name="GLUE" value="stepDefinition" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="Aluve-PMS-Testing" />
+      <option name="NAME_FILTER" value="^$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: " />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="managers.*" />
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="MoneyAppTests" />
-      <option name="MAIN_CLASS_NAME" value="MoneyAppTests.TestRunner" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="moneyapp_cucumber_tests" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="managers.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="MoneyAppTests" />
-      <option name="MAIN_CLASS_NAME" value="MoneyAppTests.TestRunner" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -422,22 +443,21 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Cucumber Java.Feature: Budget_Test" />
+      <item itemvalue="Cucumber Java.Functionality of 'Room'  Colum" />
       <item itemvalue="Cucumber Java.Feature: LogIn_Test" />
       <item itemvalue="Cucumber Java.Scenario: Successful Login with Valid Credentials" />
-      <item itemvalue="JUnit.RunCucumberTest" />
-      <item itemvalue="JUnit.TestRunner" />
+      <item itemvalue="Cucumber Java.Scenario: Validate book now working as expected" />
+      <item itemvalue="Cucumber Java.Scenario: " />
       <item itemvalue="TestNG.BudgetTest" />
       <item itemvalue="TestNG.LoginTest" />
       <item itemvalue="TestNG.MoneyAppTesting" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.RunCucumberTest" />
         <item itemvalue="Cucumber Java.Scenario: Successful Login with Valid Credentials" />
         <item itemvalue="Cucumber Java.Feature: LogIn_Test" />
-        <item itemvalue="Cucumber Java.Feature: Budget_Test" />
-        <item itemvalue="JUnit.TestRunner" />
+        <item itemvalue="Cucumber Java.Scenario: Validate book now working as expected" />
+        <item itemvalue="Cucumber Java.Scenario: " />
       </list>
     </recent_temporary>
   </component>
@@ -607,6 +627,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added budget test for adding budget item" />
@@ -618,15 +639,11 @@
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/stepDefinition/Login_Test_Steps.java</url>
-          <line>68</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="CucumberJavaRunConfigurationType">
+        <watch expression="A.isDisplayed()" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
@@ -661,7 +678,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../GumtreeAdsAutomation/src/main/java/DTO/LoginDTO.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/properties/Application.java" />
-    <entry file="file://$USER_HOME$/.IdeaIC2019.1/system/temp-testng-customsuite.xml">
+    <entry file="file://$PROJECT_DIR$/../.IdeaIC2019.1/system/temp-testng-customsuite.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" selection-start-line="9" selection-end-line="9" />
