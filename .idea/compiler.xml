@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="aluve_property_management_tests" />
         <module name="MoneyAppTesting" />
+        <module name="Aluve-PMS-Testing" />
         <module name="moneyapp_cucumber_tests" />
         <module name="MoneyAppTesting_Cucumber" />
       </profile>

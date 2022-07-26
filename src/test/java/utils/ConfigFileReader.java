@@ -1,8 +1,3 @@
-//
-// Source code recreated from a .class file by IntelliJ IDEA
-// (powered by Fernflower decompiler)
-//
-
 package utils;
 
 import enums.DriverType;
@@ -15,6 +10,7 @@ import java.io.IOException;
 import java.util.Properties;
 
 public class ConfigFileReader {
+
     private final Properties properties;
 
     public ConfigFileReader() {
@@ -88,3 +84,5 @@ public class ConfigFileReader {
     }
 
 }
+
+
