@@ -1,6 +1,7 @@
+@Room_Functionality
 Feature: Confirming the functionality of the room top column
 
-  Scenario Outline: Validating the functionality of 'Room' column
+  Scenario: Validating the functionality of 'Room' column
     Given The user has logged in the website
     When The user clicks on the "Rooms" top column
     And The user clicks on the Click to Select Dates tab
@@ -19,10 +20,6 @@ Feature: Confirming the functionality of the room top column
 
     When User clicks footer icon with value 'envelope'
     Then User validates if envelope page is open
-
-
-   # When User clicks on footer page reference with value 'Home'
-   # Then User validates 'Home' page is visible
 
     When User clicks on footer page reference with value 'Rooms'
     Then User validates 'Rooms' page is visible

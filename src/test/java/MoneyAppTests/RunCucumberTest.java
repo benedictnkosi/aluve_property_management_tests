@@ -5,7 +5,7 @@ import io.cucumber.junit.CucumberOptions;
 import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(tags = "@login_feature",
+@CucumberOptions(tags = "@Room_Functionality",
         features = "Feature"
         , glue = {"stepDefinition"})
 public class RunCucumberTest {

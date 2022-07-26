@@ -3,7 +3,7 @@ package Elements;
 import org.openqa.selenium.By;
 
 public class RoomElements {
-    public static By inputDate = By.xpath("//div[@class='hny-frm_grid']/child::span/input[@id='rooms_checkindate']");
+    public static By inputDate = By.xpath("//div[@class='hny-frm_grid']/child::span/input[contains(@id,'checkindate')]");
     public static By calendarTable = By.xpath("//div[@class='calendar-table']");
     public static By todaysDate = By.xpath("//div[@class='calendar-table']/descendant::td[contains(@class,'today')]");
     public static By futureDate = By.xpath("//div[@class='calendar-table']/descendant::td[contains(@class,'available')]");

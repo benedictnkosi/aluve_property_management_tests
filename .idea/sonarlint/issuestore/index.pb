@@ -1,5 +1,21 @@
 
-J
-Feature/LogIn_Test.feature,6\4\641a330e131c78ea9d25f382d9586decb362797a
+W
+'src/test/java/stepDefinition/Hooks.java,0\5\0576896015748adfe44c9265561a1525cea84a18
+b
+2src/test/java/stepDefinition/Login_Test_Steps.java,7\1\718934c89fa8aefdad4464d7139b330cd8db728d
+7
+pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
+K
+properties/log4j.properties,5\1\51bded994853bf9bca42e43da6bb5aea7d5ad457
+e
+5src/test/java/Elements/Aluve_Management_Elements.java,1\6\16ae4c0d87a53ba785da44350815044395b331f4
+W
+'src/test/java/cucumber/TestContext.java,2\0\20d5cd09b2f74905d20b7744fb103356124d1687
+]
+-src/test/java/managers/PageObjectManager.java,4\a\4a08b68c8b420ab1c58b2334bebb4eeabfa59943
+\
+,src/test/java/managers/WebDriverManager.java,8\b\8b19b2e41a5ae1f0b9b465b88888c34e847f192b
+Y
+)src/test/java/utils/ConfigFileReader.java,3\1\31b4ea69153b09eb2b7bd1ed1981250cae6bae0b
 R
 "src/test/java/pages/LoginPage.java,2\f\2febc867dad266b12f3cf09596e572e0dcf37dbf

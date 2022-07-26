@@ -33,9 +33,11 @@ public class RoomSteps {
 
     }
 
+    String url = "https://aluvegh.co.za/index.html";
+
     @Given("The user has logged in the website")
     public void the_user_has_logged_in_the_website() {
-        driver.get("https://dev-aluvegh.co.za/index.html");
+        driver.get(url);
     }
 
     @When("The user clicks on the {string} top column")
@@ -63,7 +65,7 @@ public class RoomSteps {
         List<WebElement> futureDate = driver.findElements(RoomElements.futureDate);
         WebElement A;
         for (int i = 0; i < futureDate.size(); i++) {
-            A = futureDate.get(8);
+            A = futureDate.get(5);
             A.click();
             break;
         }
@@ -73,11 +75,11 @@ public class RoomSteps {
     public void theUserClicksTheApplyButton(String str) throws InterruptedException {
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
         try {
-            WebElement applyButton = wait.until(ExpectedConditions.elementToBeClickable(RoomElements.actionButton(str)));
+            WebElement applyButton = wait.until(ExpectedConditions.visibilityOfElementLocated(RoomElements.actionButton(str)));
             applyButton.click();
         } catch (Exception e) {
             Thread.sleep(10);
-            WebElement applyButton = wait.until(ExpectedConditions.elementToBeClickable(RoomElements.actionButton(str)));
+            WebElement applyButton = wait.until(ExpectedConditions.visibilityOfElementLocated(RoomElements.actionButton(str)));
             applyButton.click();
         }
     }
