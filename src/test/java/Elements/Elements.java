@@ -9,7 +9,7 @@ public class Elements {
     public static By roomsInputDate = By.xpath("//div[@class='hny-frm_grid']/child::span/descendant::input[contains(@id,'checkindate']");
     public static By mapVisible = By.xpath("//div[contains(@class,'footer')]/descendant::iframe");
     public static By selectRoom = By.xpath("//div[@class='booking-form-content']/descendant::div[@class='div-select-room-name']");
-    public static By roomSelectBookNowButton = By.xpath("//div[@class='border-line']/descendant::a[text()='Book Now']");
+
     public static By backToRoomsColumn = By.xpath("//div[@class='border-line']/descendant::a/following::a[@class='back']");
     public static By displaySwitchPreviousButton = By.xpath("//div[@class='owl-nav']/button[@class='owl-prev']");
     public static By displaySwitchNextButton = By.xpath("//div[@class='owl-nav']/button[@class='owl-next']");

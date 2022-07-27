@@ -5,13 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="211edf1b-d4c7-4348-b501-81bba3b5dcbd" name="Default Changelist" comment="Scripting">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feature/RoomSelect.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Elements/ChooseRoom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinition/RoomSelect.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Feature/Room.feature" beforeDir="false" afterPath="$PROJECT_DIR$/Feature/Room.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Elements/Elements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Elements/Elements.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Elements/RoomElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Elements/RoomElements.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinition/RoomSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinition/RoomSteps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/Elements/Elements.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Elements/Elements.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Elements/RoomElements.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Elements/RoomElements.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/stepDefinition/RoomSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepDefinition/RoomSteps.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -237,7 +237,7 @@
       <recent name="pages" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: Validating the functionality of 'Room' menu">
+  <component name="RunManager" selected="Cucumber Java.Scenario: Selecting a Room">
     <configuration name="Functionality of 'Room'  Colum" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Room.feature" />
@@ -248,6 +248,26 @@
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Validating the functionality of \'Room\' column$&quot;" />
       <shortenClasspath name="NONE" />
       <option name="SUGGESTED_NAME" value="Scenario: Validating the functionality of 'Room' column" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Selecting a Room" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/Feature/RoomSelect.feature" />
+      <option name="GLUE" value="stepDefinition" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="Aluve-PMS-Testing" />
+      <option name="NAME_FILTER" value="^Selecting a Room$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Selecting a Room$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Selecting a Room" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -335,21 +355,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RunCucumberTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Aluve-PMS-Testing" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="MoneyAppTests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="MoneyAppTests" />
-      <option name="MAIN_CLASS_NAME" value="MoneyAppTests.RunCucumberTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -447,7 +452,6 @@
     </configuration>
     <list>
       <item itemvalue="Cucumber Java.Functionality of 'Room'  Colum" />
-      <item itemvalue="JUnit.RunCucumberTest" />
       <item itemvalue="TestNG.BudgetTest" />
       <item itemvalue="TestNG.LoginTest" />
       <item itemvalue="TestNG.MoneyAppTesting" />
@@ -455,14 +459,15 @@
       <item itemvalue="Cucumber Java.Scenario: Validating the functionality of 'Room' column" />
       <item itemvalue="Cucumber Java.Scenario: Validating Home Page functions are stable" />
       <item itemvalue="Cucumber Java.Scenario: Validating the functionality of 'Room' menu" />
+      <item itemvalue="Cucumber Java.Scenario: Selecting a Room" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Scenario: Selecting a Room" />
         <item itemvalue="Cucumber Java.Scenario: Validating the functionality of 'Room' menu" />
         <item itemvalue="Cucumber Java.Scenario: Validating the functionality of 'Room' column" />
         <item itemvalue="Cucumber Java.Scenario: Validating Home Page functions are stable" />
         <item itemvalue="Cucumber Java.Scenario: " />
-        <item itemvalue="JUnit.RunCucumberTest" />
       </list>
     </recent_temporary>
   </component>
@@ -534,7 +539,28 @@
       <option name="project" value="LOCAL" />
       <updated>1658842546090</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Scripting">
+      <created>1658924339880</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1658924339880</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Scripting">
+      <created>1658926155773</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1658926155773</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Scripting">
+      <created>1658926777022</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1658926777022</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -652,7 +678,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="Aluve_Regression_Test" />
+                        <option value="RoomSelect" />
                       </list>
                     </value>
                   </entry>
@@ -680,7 +706,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/stepDefinition/RoomSteps.java</url>
-          <line>93</line>
+          <line>86</line>
           <properties class="stepDefinition.RoomSteps" method="theUserSelectsAn">
             <option name="EMULATED" value="true" />
           </properties>
@@ -688,7 +714,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/stepDefinition/RoomSteps.java</url>
-          <line>100</line>
+          <line>93</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
