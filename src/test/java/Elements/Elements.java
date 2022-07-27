@@ -19,10 +19,25 @@ public class Elements {
     public static By selectDate(DataTable dateStart) {
         return By.xpath("//div[@class='calendar-table']/descendant::td[contains(@class,'available') and text()='" + dateStart + "']");
     }
+
     public static By mapExpander(String mapExpand) {
         return By.xpath("//a[@aria-label='View larger map' and text()='" + mapExpand + "']");
     }
+
     public static By roomsDisplay(String roomFunctions) {
         return By.xpath("//div[@class='maghny-grid']/descendant::a[text()='" + roomFunctions + "']");
     }
+
+    public static By footerIcons(String FooterIcon) {
+        return By.xpath("//h6[text()='Contact Details']/parent::div[contains(@class,'footer')]/descendant::span[contains(@class,'" + FooterIcon + "')]");
+    }
+
+    public static By footPage(String footerPage) {
+        return By.xpath("//div[contains(@class,'footer')]/descendant::li/child::a[text()='" + footerPage + "']");
+    }
+
+    public static By footerPageConfirm(String footer) {
+        return By.xpath("//div[contains(@class,'container')]/descendant::*[text()='" + footer + "']");
+    }
+
 }

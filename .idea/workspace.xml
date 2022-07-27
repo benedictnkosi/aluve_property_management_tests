@@ -5,34 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="211edf1b-d4c7-4348-b501-81bba3b5dcbd" name="Default Changelist" comment="Scripting">
-      <change afterPath="$PROJECT_DIR$/Feature/Book_Now.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Feature/HomePage.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Feature/Room.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Elements/BookNowElements.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinition/HomePageSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/Elements/Aluve_Management_Elements.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/Elements/Elements.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/MoneyAppTests/RunCucumberTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/cucumber/TestContext.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/enums/DriverType.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/enums/EnvironmentType.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/managers/PageObjectManager.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/managers/WebDriverManager$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/managers/WebDriverManager.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/stepDefinition/Book_Now.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/stepDefinition/Hooks.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/stepDefinition/RoomSteps.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/properties/Configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/properties/Configuration.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Feature/Room.feature" beforeDir="false" afterPath="$PROJECT_DIR$/Feature/Room.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Elements/Elements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Elements/Elements.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Elements/RoomElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Elements/RoomElements.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/MoneyAppTests/RunCucumberTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MoneyAppTests/RunCucumberTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinition/Book_Now.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinition/Book_Now.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinition/RoomSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinition/RoomSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/Book_Now.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/Room.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/stepDefinition/Login_Test_Steps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepDefinition/Login_Test_Steps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Elements/Elements.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Elements/Elements.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/stepDefinition/RoomSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepDefinition/RoomSteps.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +80,7 @@
     </favorite-branches>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Aluve_Regression_Test" />
+        <entry key="$PROJECT_DIR$" value="HomePage" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -257,28 +237,7 @@
       <recent name="pages" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: Validating Home Page functions are stable">
-    <configuration name="Book Now Functionality" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Book_Now.feature" />
-      <option name="GLUE" value="stepDefinition" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="Aluve-PMS-Testing" />
-      <option name="NAME_FILTER" value="^To validate Book Now$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^To validate Book Now$&quot;" />
-      <shortenClasspath name="NONE" />
-      <option name="SUGGESTED_NAME" value="Scenario: To validate Book Now" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Cucumber Java.Scenario: Validating the functionality of 'Room' menu">
     <configuration name="Functionality of 'Room'  Colum" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Room.feature" />
@@ -329,6 +288,26 @@
       <option name="NAME_FILTER" value="^Validating the functionality of \'Room\' column$" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Validating the functionality of \'Room\' column$&quot;" />
       <option name="SUGGESTED_NAME" value="Scenario: Validating the functionality of 'Room' column" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Validating the functionality of 'Room' menu" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/Feature/Room.feature" />
+      <option name="GLUE" value="stepDefinition" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="Aluve-PMS-Testing" />
+      <option name="NAME_FILTER" value="^Validating the functionality of \'Room\' menu$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Validating the functionality of \'Room\' menu$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Validating the functionality of 'Room' menu" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -468,7 +447,6 @@
     </configuration>
     <list>
       <item itemvalue="Cucumber Java.Functionality of 'Room'  Colum" />
-      <item itemvalue="Cucumber Java.Book Now Functionality" />
       <item itemvalue="JUnit.RunCucumberTest" />
       <item itemvalue="TestNG.BudgetTest" />
       <item itemvalue="TestNG.LoginTest" />
@@ -476,14 +454,15 @@
       <item itemvalue="Cucumber Java.Scenario: " />
       <item itemvalue="Cucumber Java.Scenario: Validating the functionality of 'Room' column" />
       <item itemvalue="Cucumber Java.Scenario: Validating Home Page functions are stable" />
+      <item itemvalue="Cucumber Java.Scenario: Validating the functionality of 'Room' menu" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Scenario: Validating Home Page functions are stable" />
+        <item itemvalue="Cucumber Java.Scenario: Validating the functionality of 'Room' menu" />
         <item itemvalue="Cucumber Java.Scenario: Validating the functionality of 'Room' column" />
+        <item itemvalue="Cucumber Java.Scenario: Validating Home Page functions are stable" />
         <item itemvalue="Cucumber Java.Scenario: " />
         <item itemvalue="JUnit.RunCucumberTest" />
-        <item itemvalue="Cucumber Java.Book Now Functionality" />
       </list>
     </recent_temporary>
   </component>
@@ -548,7 +527,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658488091152</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Scripting">
+      <created>1658842546090</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1658842546090</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -655,7 +641,24 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="Aluve_Regression_Test" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -673,6 +676,23 @@
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/stepDefinition/RoomSteps.java</url>
+          <line>93</line>
+          <properties class="stepDefinition.RoomSteps" method="theUserSelectsAn">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/stepDefinition/RoomSteps.java</url>
+          <line>100</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <watches-manager>
       <configuration name="CucumberJavaRunConfigurationType">
         <watch expression="A.isDisplayed()" />
