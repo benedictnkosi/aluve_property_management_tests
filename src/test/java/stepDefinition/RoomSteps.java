@@ -31,7 +31,7 @@ public class RoomSteps {
 
     }
 
-    String url = "https://aluvegh.co.za/index.html";
+    String url = "https://dev-aluvegh.co.za/index.html";
 
     @Given("The user has logged in the website")
     public void the_user_has_logged_in_the_website() {

@@ -7,10 +7,14 @@ Feature: Selecting a Room
     And User selects the "<start_date>" and "<end_date>"
     And The user clicks the 'Apply' button
 
-    And The User selects an available with description '1 Bedroom Cottage'
-    And The user clicks the 'Book Now' button
+    And The User selects an available room '1'
+    Then User validates Book Now consent page is visible
+    And Returns to previous page
 
+    When The User selects an available room with description 'Spacious Double Room'
+    And User clicks on the inner Book Now button
+    Then User validates Book Now consent page is visible
 
     Examples:
       | start_date | end_date | invalid_date |
-      | 10         | 11       | 15           |
+      | 2          | 3        | 15           |
