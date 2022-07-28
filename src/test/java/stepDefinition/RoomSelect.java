@@ -30,7 +30,7 @@ public class RoomSelect {
     @When("The User selects an available with description {string}")
     public void theUserSelectsAnAvailableWithDescription(String str) {
         WebElement selectingARoom;
-        selectingARoom = driver.findElement(ChooseRoom.chooseRoom(str));
+        selectingARoom = driver.findElement(ChooseRoom.selectingARoom(str));
         selectingARoom.click();
     }
 }
