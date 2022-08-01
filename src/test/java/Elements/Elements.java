@@ -24,11 +24,6 @@ public class Elements {
     public static By selectDate(DataTable dateStart) {
         return By.xpath("//div[@class='calendar-table']/descendant::td[contains(@class,'available') and text()='" + dateStart + "']");
     }
-
-    public static By mapExpander(String mapExpand) {
-        return By.xpath("//a[@aria-label='View larger map' and text()='" + mapExpand + "']");
-    }
-
     public static By roomsDisplay(String roomFunctions) {
         return By.xpath("//div[@class='maghny-grid']/descendant::a[text()='" + roomFunctions + "']");
     }
