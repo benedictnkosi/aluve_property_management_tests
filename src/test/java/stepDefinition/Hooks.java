@@ -1,7 +1,6 @@
 package stepDefinition;
 
 import cucumber.TestContext;
-import org.junit.After;
 import org.junit.Before;
 
 public class Hooks {
@@ -17,9 +16,9 @@ public class Hooks {
 
     }
 
-    @After
-    public void AfterSteps() {
-        testContext.getWebDriverManager().closeDriver();
-    }
+//    @After
+//    public void AfterSteps() {
+//        testContext.getWebDriverManager().closeDriver();
+//    }
 
 }
