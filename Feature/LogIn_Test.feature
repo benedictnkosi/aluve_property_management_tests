@@ -8,5 +8,5 @@ Feature: Login Action
     When User logs in with "<password>"
     Then User is redirected to the Dashboard page
     Examples:
-      | password |
-      | 1234     |
+      | password | username     |
+      | 1234     | thispassword |
