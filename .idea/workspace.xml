@@ -203,15 +203,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="stepDefinition" />
@@ -228,7 +228,7 @@
       <recent name="C:\Users\Lenovo\IdeaProjects\MoneyAppTesting_Cucumber\src\test\java" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.RunCucumberTest">
+  <component name="RunManager" selected="JUnit.RunCucumberTest (1)">
     <configuration name="Feature: Budget_Test" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/Feature/Budget_Test.feature" />
@@ -285,8 +285,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RunCucumberTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="aluve_property_management_tests" />
+    <configuration name="RunCucumberTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Aluve-PMS-Testing" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="MoneyAppTests.*" />
@@ -300,16 +300,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MoneyAppTesting_Cucumber" />
+    <configuration name="RunCucumberTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="aluve_property_management_tests" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="managers.*" />
+          <option name="PATTERN" value="MoneyAppTests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="MoneyAppTests" />
-      <option name="MAIN_CLASS_NAME" value="MoneyAppTests.TestRunner" />
+      <option name="MAIN_CLASS_NAME" value="MoneyAppTests.RunCucumberTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -425,19 +425,19 @@
       <item itemvalue="Cucumber Java.Feature: Budget_Test" />
       <item itemvalue="Cucumber Java.Feature: LogIn_Test" />
       <item itemvalue="Cucumber Java.Scenario: Successful Login with Valid Credentials" />
+      <item itemvalue="JUnit.RunCucumberTest (1)" />
       <item itemvalue="JUnit.RunCucumberTest" />
-      <item itemvalue="JUnit.TestRunner" />
       <item itemvalue="TestNG.BudgetTest" />
       <item itemvalue="TestNG.LoginTest" />
       <item itemvalue="TestNG.MoneyAppTesting" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RunCucumberTest (1)" />
         <item itemvalue="JUnit.RunCucumberTest" />
         <item itemvalue="Cucumber Java.Scenario: Successful Login with Valid Credentials" />
         <item itemvalue="Cucumber Java.Feature: LogIn_Test" />
         <item itemvalue="Cucumber Java.Feature: Budget_Test" />
-        <item itemvalue="JUnit.TestRunner" />
       </list>
     </recent_temporary>
   </component>
