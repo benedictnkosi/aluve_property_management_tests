@@ -10,3 +10,4 @@ Feature: Login Action
     Examples:
       | password |
       | 1234     |
+      | 1234     |
