@@ -7,7 +7,7 @@ import cucumber.api.java.en.When;
 import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import pages.Room_Elements;
+import pages.RoomElements;
 import utils.SeleniumActions;
 
 public class Rooms_Are_Displayed {
@@ -21,45 +21,39 @@ public class Rooms_Are_Displayed {
 
     @And("The user clicks on the *Click to Select Dates* date picker")
     public void theUserClicksOnTheClickToSelectDatesTab() {
-        try {
-            SeleniumActions.click(Room_Elements.inputDate, driver);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
+        SeleniumActions.click(RoomElements.inputDate, driver);
     }
 
     @Then("User validates calendar is visible")
     public void userValidatesCalendarIsPresent() {
-        WebElement calendar = driver.findElement(Room_Elements.calendarTable);
+        WebElement calendar = driver.findElement(RoomElements.calendarTable);
         Assert.assertTrue(calendar.isDisplayed());
     }
 
     @When("User selects the check-in date {string} and check out date {string}")
     public void userSelectsTheStartDateStartdateAndEndDateEnddate(String dateCheck, String dateCheck1) {
-        try {
-            SeleniumActions.click(Room_Elements.dateVariable(dateCheck), driver);
-            SeleniumActions.click(Room_Elements.dateVariable(dateCheck1), driver);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
+        SeleniumActions.click(RoomElements.dateVariable(dateCheck), driver);
+        SeleniumActions.click(RoomElements.dateVariable(dateCheck1), driver);
     }
 
     @And("The user clicks the calendar button {string}")
-    public void theUserClicksTheCalendarButton(String str) throws InterruptedException {
-        SeleniumActions.click(Room_Elements.calendarButton(str), driver);
+    public void theUserClicksTheCalendarButton(String str) {
+        SeleniumActions.click(RoomElements.calendarButton(str), driver);
     }
 
     @When("User clicks on invalid date")
     public void userClicksOnInvalidDate() {
-        try {
-            SeleniumActions.click(Room_Elements.invalidDate, driver);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
+
+        SeleniumActions.click(RoomElements.invalidDate, driver);
     }
 
-    @Then("User checks if rooms are displayed")
-    public void userChecksIfRoomsAreDisplayed() {
-        driver.findElement(Room_Elements.roomView).isDisplayed();
+    @Then("User validates that rooms are displayed")
+    public void userValidatesThatRoomsAreDisplayed() {
+        driver.findElement(RoomElements.roomView).isDisplayed();
+    }
+
+    @Then("User validates that Rooms page is open")
+    public void userValidatesThatRoomsPageIsOpen() {
+        driver.findElement(RoomElements.roomPageVisible).isDisplayed();
     }
 }
