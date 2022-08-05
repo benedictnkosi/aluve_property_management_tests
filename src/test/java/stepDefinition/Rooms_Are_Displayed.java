@@ -58,13 +58,6 @@ public class Rooms_Are_Displayed {
         }
     }
 
-    @Then("User validates invalid cannot be selected")
-    public void userValidatesInvalidCannotBeSelected() {
-        WebElement cannotSelect = driver.findElement(Room_Elements.invalidDate);
-        WebElement dateSelected = driver.findElement(Room_Elements.activeDate);
-        Assert.assertNotSame(cannotSelect, dateSelected);
-    }
-
     @Then("User checks if rooms are displayed")
     public void userChecksIfRoomsAreDisplayed() {
         driver.findElement(Room_Elements.roomView).isDisplayed();
