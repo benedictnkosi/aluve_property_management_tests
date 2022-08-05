@@ -7,14 +7,9 @@ Feature: Validating Rooms are displayed when date is input
     Then User validates calendar is visible
 
     When User selects the check-in date "<start_date>" and check out date "<end_date>"
-
     And The user clicks the calendar button 'Apply'
-    Then User validates the dates on the date picker are check-in and check-out date
+    Then User checks if rooms are displayed
 
-    When The user clicks on the *Click to Select Dates* date picker
-    And User clicks on invalid date
-    Then User validates invalid cannot be selected
-    When The user clicks the calendar button 'Apply'
 
 
     Examples:
