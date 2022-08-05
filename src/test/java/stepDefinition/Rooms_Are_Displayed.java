@@ -16,7 +16,8 @@ import utils.ConfigFileReader;
 
 import java.time.Duration;
 import java.util.ArrayList;
-import java.util.List;
+
+import static java.time.Duration.ofSeconds;
 
 public class Rooms_Are_Displayed {
     TestContext testContext;
@@ -33,12 +34,12 @@ public class Rooms_Are_Displayed {
 
     }
 
-    @Given("The user has logged in the website")
+    @Given("The user is at the home page")
     public void the_user_has_logged_in_the_website() {
         driver.get("https://dev-aluvegh.co.za/index.html");
     }
 
-    @When("The user clicks on the {string} top column")
+    @When("The user clicks on the {string} top menu")
     public void theUserClicksOnTheTopColumn(String column) {
         WebElement roomColumn = driver.findElement(RoomDisplayed_Elements.topColumn(column));
         roomColumn.click();
@@ -56,17 +57,14 @@ public class Rooms_Are_Displayed {
         calendar.isDisplayed();
     }
 
-    @When("User selects the start date and end date")
-    public void userSelectsTheStartDateStartdateAndEndDateEnddate() {
-        WebElement today = driver.findElement(RoomDisplayed_Elements.todaysDate);
-        today.click();
-        List<WebElement> futureDate = driver.findElements(RoomDisplayed_Elements.futureDate);
-        WebElement A;
-        for (int i = 0; i < futureDate.size(); i++) {
-            A = futureDate.get(8);
-            A.click();
-            break;
-        }
+    @When("User selects the {string} and {string}")
+    public void userSelectsTheStartDateStartdateAndEndDateEnddate(String arg0, String arg1) {
+        WebDriverWait wait = new WebDriverWait(driver, ofSeconds(5));
+        WebElement findDate1 = wait.until(ExpectedConditions.elementToBeClickable(RoomDisplayed_Elements.dateVariable(arg0)));
+        findDate1.click();
+
+        WebElement findDate2 = wait.until(ExpectedConditions.elementToBeClickable(RoomDisplayed_Elements.dateVariable(arg1)));
+        findDate2.click();
     }
 
     @And("The user clicks the {string} button")

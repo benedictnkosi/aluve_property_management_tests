@@ -16,19 +16,15 @@ public class VariousElements {
     public static By displaySwitchNextButton = By.xpath("//div[@class='owl-nav']/button[@class='owl-next']");
     public static By displayBookNowButton = By.xpath("//div[@class='banner-info-bg']/child::a[text()=' BOOK NOW']");
     public static By PageNotFound = By.xpath("//h1[text()='Not Found']");
-
     public static By inputTab(String inputTab) {
         return By.xpath("//div[@class='hny-frm_grid']/child::h5/following::input[contains(@placeholder,'" + inputTab + "')]");
     }
-
     public static By selectDate(DataTable dateStart) {
         return By.xpath("//div[@class='calendar-table']/descendant::td[contains(@class,'available') and text()='" + dateStart + "']");
     }
-
     public static By mapExpander(String mapExpand) {
         return By.xpath("//a[@aria-label='View larger map' and text()='" + mapExpand + "']");
     }
-
     public static By roomsDisplay(String roomFunctions) {
         return By.xpath("//div[@class='maghny-grid']/descendant::a[text()='" + roomFunctions + "']");
     }
