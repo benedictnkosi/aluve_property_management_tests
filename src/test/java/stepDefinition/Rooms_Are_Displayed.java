@@ -30,12 +30,6 @@ public class Rooms_Are_Displayed {
         Assert.assertTrue(calendar.isDisplayed());
     }
 
-    @When("User selects the check-in date {string} and check out date {string}")
-    public void userSelectsTheStartDateStartdateAndEndDateEnddate(String dateCheck, String dateCheck1) throws InterruptedException {
-        SeleniumActions.click(RoomElements.dateVariable(dateCheck), driver);
-        SeleniumActions.click(RoomElements.dateVariable(dateCheck1), driver);
-    }
-
     @And("The user clicks the calendar button {string}")
     public void theUserClicksTheCalendarButton(String str) throws InterruptedException {
         SeleniumActions.click(RoomElements.calendarButton(str), driver);

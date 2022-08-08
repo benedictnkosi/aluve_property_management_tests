@@ -8,7 +8,9 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import pages.HomePage;
 import pages.MenuPage;
+import pages.RoomElements;
 import utils.ConfigFileReader;
+import utils.SeleniumActions;
 
 public class CommonSteps {
     TestContext testContext;
@@ -36,6 +38,12 @@ public class CommonSteps {
     public void theUserClicksOnTheTopColumn(String menu) {
         WebElement topMenu = driver.findElement(MenuPage.topMenu(menu));
         topMenu.click();
+    }
+
+    @When("User selects the check-in date {string} and check out date {string}")
+    public void userSelectsTheStartDateStartdateAndEndDateEnddate(String dateCheck, String dateCheck1) throws InterruptedException {
+        SeleniumActions.click(RoomElements.dateVariable(dateCheck), driver);
+        SeleniumActions.click(RoomElements.dateVariable(dateCheck1), driver);
     }
 
 }
