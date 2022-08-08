@@ -2,7 +2,7 @@ package pages;
 
 import org.openqa.selenium.By;
 
-public class RoomElements {
+public class RoomPage {
     public static By inputDate = By.xpath("//div[@class='hny-frm_grid']/child::span/input[@id='rooms_checkindate']");
     public static By calendarTable = By.xpath("//div[@class='calendar-table']");
     public static By invalidDate = By.xpath("(//div[@class='calendar-table']//td[contains(@class,'disabled')])[1]");
