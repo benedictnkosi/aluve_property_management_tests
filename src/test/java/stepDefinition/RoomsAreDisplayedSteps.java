@@ -10,11 +10,11 @@ import org.openqa.selenium.WebElement;
 import pages.RoomElements;
 import utils.SeleniumActions;
 
-public class Rooms_Are_Displayed {
+public class RoomsAreDisplayedSteps {
     TestContext testContext;
     WebDriver driver;
 
-    public Rooms_Are_Displayed(TestContext context) {
+    public RoomsAreDisplayedSteps(TestContext context) {
         testContext = context;
         driver = testContext.getWebDriverManager().getDriver();
     }

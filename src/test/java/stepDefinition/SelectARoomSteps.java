@@ -11,12 +11,12 @@ import utils.SeleniumActions;
 
 import static pages.RoomElements.chooseRoom;
 
-public class SelectARoom {
+public class SelectARoomSteps {
 
     TestContext testContext;
     WebDriver driver;
 
-    public SelectARoom(TestContext context) {
+    public SelectARoomSteps(TestContext context) {
         testContext = context;
         driver = testContext.getWebDriverManager().getDriver();
     }

@@ -12,7 +12,7 @@ import org.openqa.selenium.WebDriver;
 import pages.LoginPage;
 import utils.ConfigFileReader;
 
-public class Login_Test_Steps {
+public class LoginTestSteps {
 
     TestContext testContext;
     WebDriver driver;
@@ -22,9 +22,9 @@ public class Login_Test_Steps {
 
     LoginPage loginPage;
 
-    static final Logger log = (Logger) LogManager.getLogger(Login_Test_Steps.class.getName());
+    static final Logger log = (Logger) LogManager.getLogger(LoginTestSteps.class.getName());
 
-    public Login_Test_Steps(TestContext context) {
+    public LoginTestSteps(TestContext context) {
         testContext = context;
         driver = testContext.getWebDriverManager().getDriver();
         configReader = testContext.getConfigFileReader();
