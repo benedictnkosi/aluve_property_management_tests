@@ -43,11 +43,14 @@ public class Rooms_Are_Displayed {
 
     @Then("User validates that rooms are displayed")
     public void userValidatesThatRoomsAreDisplayed() {
-        driver.findElement(RoomElements.roomView).isDisplayed();
+        WebElement roomView = driver.findElement(RoomElements.roomView);
+        Assert.assertTrue(roomView.isDisplayed());
+
     }
 
     @Then("User validates that Rooms page is open")
     public void userValidatesThatRoomsPageIsOpen() {
-        driver.findElement(RoomElements.roomPageVisible).isDisplayed();
+        WebElement roomPage = driver.findElement(RoomElements.roomPageVisible);
+        Assert.assertTrue(roomPage.isDisplayed());
     }
 }
