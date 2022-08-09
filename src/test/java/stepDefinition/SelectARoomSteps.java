@@ -6,10 +6,10 @@ import cucumber.api.java.en.When;
 import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import pages.RoomElements;
+import pages.RoomPage;
 import utils.SeleniumActions;
 
-import static pages.RoomElements.chooseRoom;
+import static pages.RoomPage.chooseRoom;
 
 public class SelectARoomSteps {
 
@@ -32,7 +32,7 @@ public class SelectARoomSteps {
 
     @Then("User validates that the selected room is open with description {string}")
     public void userValidatesThatTheSelectedRoomIsOpenWithDescriptionSpaciousDoubleRoom(String roomOpen) {
-        WebElement roomIsDisplayed = driver.findElement(RoomElements.openRoom(roomOpen));
+        WebElement roomIsDisplayed = driver.findElement(RoomPage.openRoom(roomOpen));
         Assert.assertTrue(roomIsDisplayed.isDisplayed());
 
     }

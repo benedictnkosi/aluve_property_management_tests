@@ -8,7 +8,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import pages.HomePage;
 import pages.MenuPage;
-import pages.RoomElements;
+import pages.RoomPage;
 import utils.ConfigFileReader;
 import utils.SeleniumActions;
 
@@ -42,8 +42,8 @@ public class CommonSteps {
 
     @When("User selects the check-in date {string} and check out date {string}")
     public void userSelectsTheStartDateStartdateAndEndDateEnddate(String dateCheck, String dateCheck1) throws InterruptedException {
-        SeleniumActions.click(RoomElements.dateVariable(dateCheck), driver);
-        SeleniumActions.click(RoomElements.dateVariable(dateCheck1), driver);
+        SeleniumActions.click(RoomPage.dateVariable(dateCheck), driver);
+        SeleniumActions.click(RoomPage.dateVariable(dateCheck1), driver);
     }
 
 }
