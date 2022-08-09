@@ -1,7 +1,6 @@
 package stepDefinition;
 
 import cucumber.TestContext;
-import cucumber.api.java.After;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
@@ -13,18 +12,19 @@ import org.openqa.selenium.WebDriver;
 import pages.LoginPage;
 import utils.ConfigFileReader;
 
-public class Login_Test_Steps {
+public class LoginTestSteps {
 
     TestContext testContext;
     WebDriver driver;
     ConfigFileReader configReader;
     PageObjectManager pageObjectManager;
 
+
     LoginPage loginPage;
 
-    static final Logger log = (Logger) LogManager.getLogger(Login_Test_Steps.class.getName());
+    static final Logger log = (Logger) LogManager.getLogger(LoginTestSteps.class.getName());
 
-    public Login_Test_Steps(TestContext context) {
+    public LoginTestSteps(TestContext context) {
         testContext = context;
         driver = testContext.getWebDriverManager().getDriver();
         configReader = testContext.getConfigFileReader();
@@ -64,10 +64,10 @@ public class Login_Test_Steps {
     }
 
 
-    @After
-    public void teardown() {
-        testContext.getWebDriverManager().closeDriver();
-    }
+//    @After
+//    public void teardown() {
+//        testContext.getWebDriverManager().closeDriver();
+//    }
 
 
 }
