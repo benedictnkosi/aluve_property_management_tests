@@ -30,6 +30,12 @@ public class RoomsAreDisplayedSteps {
         Assert.assertTrue(calendar.isDisplayed());
     }
 
+    @When("User selects the check-in date {string} and check out date {string}")
+    public void userSelectsTheStartDateStartdateAndEndDateEnddate(String dateCheck, String dateCheck1) throws InterruptedException {
+        SeleniumActions.click(RoomPage.dateVariable(dateCheck), driver);
+        SeleniumActions.click(RoomPage.dateVariable(dateCheck1), driver);
+    }
+
     @And("The user clicks the calendar button {string}")
     public void theUserClicksTheCalendarButton(String str) throws InterruptedException {
         SeleniumActions.click(RoomPage.calendarButton(str), driver);
@@ -43,13 +49,14 @@ public class RoomsAreDisplayedSteps {
 
     @Then("User validates that rooms are displayed")
     public void userValidatesThatRoomsAreDisplayed() {
+
         WebElement roomView = driver.findElement(RoomPage.roomView);
         Assert.assertTrue(roomView.isDisplayed());
-
     }
 
     @Then("User validates that Rooms page is open")
     public void userValidatesThatRoomsPageIsOpen() {
+
         WebElement roomPage = driver.findElement(RoomPage.roomPageVisible);
         Assert.assertTrue(roomPage.isDisplayed());
     }

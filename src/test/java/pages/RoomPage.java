@@ -19,13 +19,5 @@ public class RoomPage {
 
     public static By roomPageVisible = By.xpath("//h2[text()='Rooms']");
 
-    public static By chooseRoom(String room) {
-        return By.xpath("//div[@class='maghny-grid']/descendant::div[@class='room-info']//a[text()='" + room + "']");
-    }
 
-    public static By openRoom(String roomDisplayed) {
-        return By.xpath("//section[@class='room-single-block']/descendant::h6[text()='" + roomDisplayed + "']");
-    }
 }
-
-
