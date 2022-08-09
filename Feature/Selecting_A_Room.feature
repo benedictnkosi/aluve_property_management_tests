@@ -12,10 +12,10 @@ Feature: Selecting A Room
     And The user clicks the calendar button 'Apply'
     Then User validates that rooms are displayed
 
-    When The User selects an available room with description '<room1>'
-    Then User validates that the selected room is open with description '<room1>'
+    When The User selects an available room with description '<favouriteRoom>'
+    Then User validates that the selected room is open with description '<favouriteRoom>'
 
     Examples:
-      | start_date | end_date | room1                    |
+      | start_date | end_date | favouriteRoom            |
       | 5          | 10       | 2 Bedroom Family Cottage |
 

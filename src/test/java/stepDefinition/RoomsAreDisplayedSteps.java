@@ -20,7 +20,7 @@ public class RoomsAreDisplayedSteps {
     }
 
     @And("The user clicks on the *Click to Select Dates* date picker")
-    public void theUserClicksOnTheClickToSelectDatesTab() throws InterruptedException {
+    public void theUserClicksOnTheClickToSelectDatesTab() {
         SeleniumActions.click(RoomPage.inputDate, driver);
     }
 
@@ -31,18 +31,18 @@ public class RoomsAreDisplayedSteps {
     }
 
     @When("User selects the check-in date {string} and check out date {string}")
-    public void userSelectsTheStartDateStartdateAndEndDateEnddate(String dateCheck, String dateCheck1) throws InterruptedException {
+    public void userSelectsTheStartDateStartdateAndEndDateEnddate(String dateCheck, String dateCheck1) {
         SeleniumActions.click(RoomPage.dateVariable(dateCheck), driver);
         SeleniumActions.click(RoomPage.dateVariable(dateCheck1), driver);
     }
 
     @And("The user clicks the calendar button {string}")
-    public void theUserClicksTheCalendarButton(String str) throws InterruptedException {
+    public void theUserClicksTheCalendarButton(String str) {
         SeleniumActions.click(RoomPage.calendarButton(str), driver);
     }
 
     @When("User clicks on invalid date")
-    public void userClicksOnInvalidDate() throws InterruptedException {
+    public void userClicksOnInvalidDate() {
 
         SeleniumActions.click(RoomPage.invalidDate, driver);
     }

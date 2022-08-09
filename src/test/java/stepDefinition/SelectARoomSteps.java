@@ -28,8 +28,8 @@ public class SelectARoomSteps {
 
     @Then("User validates that the selected room is open with description {string}")
     public void userValidatesThatTheSelectedRoomIsOpenWithDescriptionSpaciousDoubleRoom(String roomOpen) {
-        WebElement roomIsDisplayed = driver.findElement(RoomPage.openRoom(roomOpen));
-        Assert.assertTrue(roomIsDisplayed.isDisplayed());
+        WebElement openedRoomHeader = driver.findElement(RoomPage.roomHeader(roomOpen));
+        Assert.assertTrue(openedRoomHeader.isDisplayed());
     }
 }
 
