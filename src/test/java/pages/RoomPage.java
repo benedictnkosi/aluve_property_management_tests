@@ -17,9 +17,9 @@ public class RoomPage {
         return By.xpath("//div[@class='drp-buttons']/button[text()='" + button + "']");
     }
 
-    public static By roomPageVisible = By.xpath("//h2[text()='Rooms']");
+    public static By roomPageIsVisible = By.xpath("//h2[text()='Rooms']");
 
-    public static By chooseRoom(String room) {
+    public static By clickRoomName(String room) {
         return By.xpath("//div[@class='maghny-grid']/descendant::div[@class='room-info']//a[text()='" + room + "']");
     }
 
