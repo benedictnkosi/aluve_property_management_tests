@@ -20,7 +20,7 @@ public class RoomsAreDisplayedSteps {
     }
 
     @And("The user clicks on the *Click to Select Dates* date picker")
-    public void theUserClicksOnTheClickToSelectDatesTab() throws InterruptedException {
+    public void theUserClicksOnTheClickToSelectDatesDatePicker() {
         SeleniumActions.click(RoomPage.inputDate, driver);
     }
 
@@ -31,33 +31,30 @@ public class RoomsAreDisplayedSteps {
     }
 
     @When("User selects the check-in date {string} and check out date {string}")
-    public void userSelectsTheStartDateStartdateAndEndDateEnddate(String dateCheck, String dateCheck1) throws InterruptedException {
-        SeleniumActions.click(RoomPage.dateVariable(dateCheck), driver);
-        SeleniumActions.click(RoomPage.dateVariable(dateCheck1), driver);
+    public void userSelectsTheStartDateStartdateAndEndDateEnddate(String CheckInDate, String CheckOutDate) {
+        SeleniumActions.click(RoomPage.dateVariable(CheckInDate), driver);
+        SeleniumActions.click(RoomPage.dateVariable(CheckOutDate), driver);
     }
 
     @And("The user clicks the calendar button {string}")
-    public void theUserClicksTheCalendarButton(String str) throws InterruptedException {
-        SeleniumActions.click(RoomPage.calendarButton(str), driver);
+    public void theUserClicksTheCalendarButton(String calendarButton) {
+        SeleniumActions.click(RoomPage.calendarButton(calendarButton), driver);
     }
 
     @When("User clicks on invalid date")
-    public void userClicksOnInvalidDate() throws InterruptedException {
-
-        SeleniumActions.click(RoomPage.invalidDate, driver);
+    public void userClicksOnInvalidDate() {
+        SeleniumActions.click(RoomPage.disabledDate, driver);
     }
 
     @Then("User validates that rooms are displayed")
     public void userValidatesThatRoomsAreDisplayed() {
-
-        WebElement roomView = driver.findElement(RoomPage.roomView);
+        WebElement roomView = driver.findElement(RoomPage.roomContainer);
         Assert.assertTrue(roomView.isDisplayed());
     }
 
     @Then("User validates that Rooms page is open")
     public void userValidatesThatRoomsPageIsOpen() {
-
-        WebElement roomPage = driver.findElement(RoomPage.roomPageVisible);
+        WebElement roomPage = driver.findElement(RoomPage.roomPageHeading);
         Assert.assertTrue(roomPage.isDisplayed());
     }
 }
