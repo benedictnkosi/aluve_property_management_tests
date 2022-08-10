@@ -23,11 +23,11 @@ public class SelectARoomSteps {
 
     @When("The User selects an available room with description {string}")
     public void the_User_selects_an_available_room_with_description(String favouriteRoom) {
-        SeleniumActions.click(RoomPage.clickRoomName(favouriteRoom), driver);
+        SeleniumActions.click(RoomPage.roomName(favouriteRoom), driver);
     }
 
     @Then("User validates that the selected room is open with description {string}")
-    public void userValidatesThatTheSelectedRoomIsOpenWithDescriptionSpaciousDoubleRoom(String roomName) {
+    public void userValidatesThatTheSelectedRoomIsOpenWithDescription(String roomName) {
         WebElement openedRoomHeader = driver.findElement(RoomPage.roomHeader(roomName));
         Assert.assertTrue(openedRoomHeader.isDisplayed());
     }

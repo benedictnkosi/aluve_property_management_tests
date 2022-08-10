@@ -20,7 +20,7 @@ public class RoomsAreDisplayedSteps {
     }
 
     @And("The user clicks on the *Click to Select Dates* date picker")
-    public void theUserClicksOnTheClickToSelectDatesTab() {
+    public void theUserClicksOnTheClickToSelectDatesDatePicker() {
         SeleniumActions.click(RoomPage.inputDate, driver);
     }
 
@@ -31,9 +31,9 @@ public class RoomsAreDisplayedSteps {
     }
 
     @When("User selects the check-in date {string} and check out date {string}")
-    public void userSelectsTheStartDateStartdateAndEndDateEnddate(String dateSelect, String dateSelect1) {
-        SeleniumActions.click(RoomPage.dateVariable(dateSelect), driver);
-        SeleniumActions.click(RoomPage.dateVariable(dateSelect1), driver);
+    public void userSelectsTheStartDateStartdateAndEndDateEnddate(String CheckInDate, String CheckOutDate) {
+        SeleniumActions.click(RoomPage.dateVariable(CheckInDate), driver);
+        SeleniumActions.click(RoomPage.dateVariable(CheckOutDate), driver);
     }
 
     @And("The user clicks the calendar button {string}")
@@ -43,18 +43,18 @@ public class RoomsAreDisplayedSteps {
 
     @When("User clicks on invalid date")
     public void userClicksOnInvalidDate() {
-        SeleniumActions.click(RoomPage.invalidDate, driver);
+        SeleniumActions.click(RoomPage.disabledDate, driver);
     }
 
     @Then("User validates that rooms are displayed")
     public void userValidatesThatRoomsAreDisplayed() {
-        WebElement roomView = driver.findElement(RoomPage.roomView);
+        WebElement roomView = driver.findElement(RoomPage.roomContainer);
         Assert.assertTrue(roomView.isDisplayed());
     }
 
     @Then("User validates that Rooms page is open")
     public void userValidatesThatRoomsPageIsOpen() {
-        WebElement roomPage = driver.findElement(RoomPage.roomPageIsVisible);
+        WebElement roomPage = driver.findElement(RoomPage.roomPageHeading);
         Assert.assertTrue(roomPage.isDisplayed());
     }
 }
