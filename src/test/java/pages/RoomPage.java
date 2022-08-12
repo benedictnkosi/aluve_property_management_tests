@@ -3,9 +3,7 @@ package pages;
 import org.openqa.selenium.By;
 
 public class RoomPage {
-    public static By inputDate = By.xpath("//div[@class='hny-frm_grid']/child::span/input[@id='rooms_checkindate']");
-    public static By calendarTable = By.xpath("//div[@class='calendar-table']");
-    public static By disabledDate = By.xpath("(//div[@class='calendar-table']//td[contains(@class,'disabled')])[1]");
+
     public static By roomContainer = By.xpath("//div[contains(@class,'maghny-gd')]");
 
     public static By dateVariable(String date) {

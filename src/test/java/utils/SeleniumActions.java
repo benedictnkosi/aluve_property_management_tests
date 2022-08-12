@@ -17,10 +17,31 @@ public class SeleniumActions {
             } catch (ElementClickInterceptedException | StaleElementReferenceException e) {
                 System.out.println("Can't find it man " + e.getMessage());
                 try {
-                    Thread.sleep(10);
+                    Thread.sleep(3000);
                 } catch (InterruptedException ex) {
                     throw new RuntimeException(ex);
                 }
+            }
+        }
+    }
+
+    public static void clickUntil(By toBeDisplayed, By toClick, WebDriver driver) {
+        int maxLoopCount = 0;
+        while (!driver.findElement(toBeDisplayed).isDisplayed() && maxLoopCount < 5) {
+            System.out.println("element is not displayed");
+            maxLoopCount++;
+            SeleniumActions.click(toClick, driver);
+            try {
+                if (driver.findElement(toBeDisplayed).isDisplayed()) {
+                    System.out.println("element is displayed");
+                    Thread.sleep(3000);
+                } else {
+                    System.out.println("element is not displayed");
+                    Thread.sleep(3000);
+
+                }
+            } catch (InterruptedException e) {
+                e.printStackTrace();
             }
         }
     }
