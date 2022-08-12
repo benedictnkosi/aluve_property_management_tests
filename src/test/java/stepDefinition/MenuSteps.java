@@ -7,11 +7,11 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import pages.BookNowPage;
 
-public class BookNowTopMenuSteps {
+public class MenuSteps {
     TestContext testContext;
     WebDriver driver;
 
-    public BookNowTopMenuSteps(TestContext context) {
+    public MenuSteps(TestContext context) {
         testContext = context;
         driver = testContext.getWebDriverManager().getDriver();
     }
