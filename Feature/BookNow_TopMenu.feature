@@ -1,4 +1,4 @@
-Feature: Book Now Consent Form from Top Menu Home Page
+Feature: Book Now Booking Form from Top Menu Home Page
 
   Scenario: User Is Making Booking From Home Page
     Given The user is on the home page
