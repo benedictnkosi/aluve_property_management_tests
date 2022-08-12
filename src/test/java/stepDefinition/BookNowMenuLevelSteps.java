@@ -18,6 +18,7 @@ public class BookNowMenuLevelSteps {
         driver = testContext.getWebDriverManager().getDriver();
     }
 
+
     @Then("User validates booking form is displayed")
     public void user_validates_content_form_is_displayed() {
         WebElement bookNowContentPage = driver.findElement(BookNowPage.BookingForm);
