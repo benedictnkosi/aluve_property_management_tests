@@ -39,7 +39,7 @@ public class CommonSteps {
     }
 
     @When("The user clicks on the {string} top menu")
-    public void theUserClicksOnTheTopColumn(String menu) {
+    public void theUserClicksOnTheTopMenu(String menu) {
         WebElement topMenu = driver.findElement(MenuPage.topMenu(menu));
         topMenu.click();
     }
