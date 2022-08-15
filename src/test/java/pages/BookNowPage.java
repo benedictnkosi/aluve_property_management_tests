@@ -15,5 +15,6 @@ public class BookNowPage {
     public static By GuestDetailInput(String GuestInfo) {
         return By.xpath("//div[@class='hny-frm_grid']//input[@placeholder='" + GuestInfo + "']");
     }
+    public static By successfulBooking = By.xpath("//div[contains(@class,'booking-forms')]/child::h3[@id='thank_message']");
 
 }

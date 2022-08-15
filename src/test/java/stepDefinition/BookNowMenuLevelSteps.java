@@ -9,20 +9,21 @@ import org.openqa.selenium.WebElement;
 import pages.BookNowPage;
 import utils.SeleniumActions;
 
+
 public class BookNowMenuLevelSteps {
     TestContext testContext;
     WebDriver driver;
 
+
     public BookNowMenuLevelSteps(TestContext context) {
         testContext = context;
         driver = testContext.getWebDriverManager().getDriver();
-    }
 
+    }
 
     @Then("User validates booking form is displayed")
     public void user_validates_content_form_is_displayed() {
-        WebElement bookNowContentPage = driver.findElement(BookNowPage.BookingForm);
-        Assert.assertTrue(bookNowContentPage.isDisplayed());
+        SeleniumActions.wait(BookNowPage.BookingForm, driver);
     }
 
     @When("The user enters {string} in field {string}")
@@ -34,8 +35,7 @@ public class BookNowMenuLevelSteps {
 
     @Then("User validates that rooms tiles are displayed")
     public void userValidatesThatRoomsTilesAreDisplayed() {
-        WebElement roomContainer = driver.findElement(BookNowPage.roomTile);
-        Assert.assertTrue(roomContainer.isDisplayed());
+        SeleniumActions.wait(BookNowPage.roomTile, driver);
     }
 
     @When("User clicks on the room select Add button")
@@ -46,8 +46,7 @@ public class BookNowMenuLevelSteps {
 
     @Then("User validates room has been added")
     public void userValidatesRoomHasBeenAdded() {
-        WebElement roomAddedText = driver.findElement(BookNowPage.nightsMessage);
-        Assert.assertTrue(roomAddedText.isDisplayed());
+        SeleniumActions.wait(BookNowPage.nightsMessage, driver);
     }
 
     @When("The user checks the Terms & Conditions checkbox")
@@ -68,6 +67,7 @@ public class BookNowMenuLevelSteps {
 
     @Then("User validates booking is successful")
     public void userValidatesBookingIsSuccessful() {
+        SeleniumActions.wait(BookNowPage.successfulBooking, driver);
     }
 }
 

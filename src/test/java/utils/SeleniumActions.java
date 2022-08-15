@@ -4,6 +4,10 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.ElementClickInterceptedException;
 import org.openqa.selenium.StaleElementReferenceException;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+import java.time.Duration;
 
 public class SeleniumActions {
     public static void click(By by, WebDriver driver) {
@@ -44,5 +48,10 @@ public class SeleniumActions {
                 e.printStackTrace();
             }
         }
+    }
+
+    public static void wait(By by, WebDriver driver) {
+        WebDriverWait waitElement = new WebDriverWait(driver, Duration.ofSeconds(10));
+        waitElement.until(ExpectedConditions.visibilityOfElementLocated(by)).isDisplayed();
     }
 }
