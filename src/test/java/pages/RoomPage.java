@@ -6,6 +6,7 @@ public class RoomPage {
 
     public static By roomContainer = By.xpath("//div[contains(@class,'maghny-gd')]");
 
+    public static By RoomInnerBookNowButton = By.xpath("//div[@class='container']/descendant::div[contains(@class,'book-btn')]/child::a[text()='Book Now']");
 
     public static By calendarButton(String button) {
         return By.xpath("//div[@class='drp-buttons']/button[text()='" + button + "']");
