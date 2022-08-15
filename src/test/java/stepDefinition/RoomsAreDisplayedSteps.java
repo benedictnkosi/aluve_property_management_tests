@@ -23,9 +23,5 @@ public class RoomsAreDisplayedSteps {
         Assert.assertTrue(roomView.isDisplayed());
     }
 
-    @Then("User validates that Rooms page is open")
-    public void userValidatesThatRoomsPageIsOpen() {
-        WebElement roomPage = driver.findElement(RoomPage.roomPageHeading);
-        Assert.assertTrue(roomPage.isDisplayed());
-    }
+
 }

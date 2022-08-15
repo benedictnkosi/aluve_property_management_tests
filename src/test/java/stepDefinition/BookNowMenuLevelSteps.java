@@ -18,18 +18,12 @@ public class BookNowMenuLevelSteps {
         driver = testContext.getWebDriverManager().getDriver();
     }
 
-
-    @Then("User validates booking form is displayed")
-    public void user_validates_content_form_is_displayed() {
-        WebElement bookNowContentPage = driver.findElement(BookNowPage.BookingForm);
-        Assert.assertTrue(bookNowContentPage.isDisplayed());
-    }
-
-    @When("The user clicks the input grid for guest information with value{string} and enters guest information {string}")
+    @When("The user enters {string} in field {string}")
     public void theUserClicksTheInputGridForGuestInformationWithValueName(String inputGrid, String guestInfo) {
         WebElement guestInfoInput = driver.findElement(BookNowPage.GuestDetailInput(inputGrid));
-        guestInfoInput.click();
+        SeleniumActions.click(BookNowPage.GuestDetailInput(inputGrid), driver);
         guestInfoInput.sendKeys(guestInfo);
+
     }
 
     @Then("User validates that rooms tiles are displayed")

@@ -6,9 +6,6 @@ public class RoomPage {
 
     public static By roomContainer = By.xpath("//div[contains(@class,'maghny-gd')]");
 
-    public static By dateVariable(String date) {
-        return By.xpath("(//td[contains(@class,'available')])[" + date + "]");
-    }
 
     public static By calendarButton(String button) {
         return By.xpath("//div[@class='drp-buttons']/button[text()='" + button + "']");

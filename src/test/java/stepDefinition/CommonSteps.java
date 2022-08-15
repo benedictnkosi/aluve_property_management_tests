@@ -40,14 +40,13 @@ public class CommonSteps {
 
     @When("The user clicks on the {string} top menu")
     public void theUserClicksOnTheTopMenu(String menu) {
-        WebElement topMenu = driver.findElement(MenuPage.topMenu(menu));
-        topMenu.click();
+        SeleniumActions.click(MenuPage.topMenu(menu), driver);
     }
 
     @When("User selects the check-in date {string} and check out date {string}")
     public void userSelectsTheStartDateStartdateAndEndDateEnddate(String CheckInDate, String CheckOutDate) {
-        SeleniumActions.click(RoomPage.dateVariable(CheckInDate), driver);
-        SeleniumActions.click(RoomPage.dateVariable(CheckOutDate), driver);
+        SeleniumActions.click(CommonPage.dateVariable(CheckInDate), driver);
+        SeleniumActions.click(CommonPage.dateVariable(CheckOutDate), driver);
     }
 
     @And("The user clicks on the date picker")
@@ -70,5 +69,4 @@ public class CommonSteps {
     public void theUserClicksTheCalendarButton(String calendarButton) {
         SeleniumActions.click(RoomPage.calendarButton(calendarButton), driver);
     }
-
 }
