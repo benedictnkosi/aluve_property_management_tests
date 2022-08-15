@@ -26,8 +26,6 @@ Feature: New booking from the home page top menu
     Then User validates booking is successful
 
 
-
-
     Examples:
       | name      | phoneNumber  | email | guestName | guestNumber | guestEmail           | start_date | end_date |
       | Your Name | Phone Number | Email | Mluleki   | 0834889077  | mlu78nkosi@gmail.com | 5          | 10       |
