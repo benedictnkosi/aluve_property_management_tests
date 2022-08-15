@@ -25,7 +25,7 @@ public class BookNowMenuLevelSteps {
         Assert.assertTrue(bookNowContentPage.isDisplayed());
     }
 
-    @When("The user clicks the input grid for guest information with value{string} and enters guest information {string}")
+    @When("The user enters {string} in field {string}")
     public void theUserClicksTheInputGridForGuestInformationWithValueName(String inputGrid, String guestInfo) {
         WebElement guestInfoInput = driver.findElement(BookNowPage.GuestDetailInput(inputGrid));
         guestInfoInput.click();
