@@ -4,7 +4,7 @@ import org.openqa.selenium.By;
 
 public class RoomPage {
 
-    public static By roomContainer = By.xpath("//div[contains(@class,'maghny-gd')]");
+    public static By roomContainer = By.xpath("//div[contains(@class,'maghny-gd')]/descendant::div[@class='room-info']");
 
     public static By RoomInnerBookNowButton = By.xpath("//div[@class='container']/descendant::div[contains(@class,'book-btn')]/child::a[text()='Book Now']");
 
