@@ -4,7 +4,7 @@ import org.openqa.selenium.By;
 
 public class RoomPage {
 
-    public static By roomContainer = By.xpath("//div[contains(@class,'maghny-gd')]");
+    public static By roomContainer = By.xpath("//div[contains(@class,'maghny-gd')]/child::div[@class='maghny-grid']");
 
 
     public static By calendarButton(String button) {
@@ -20,4 +20,6 @@ public class RoomPage {
     public static By roomHeader(String favRoom) {
         return By.xpath("//*[@class='room-single-block']/descendant::*[@id='room_name' and text()='" + favRoom + "']");
     }
+
+    public static By BookNowButton = By.xpath("(//div[@class='maghny-grid']/descendant::div[@class='room-info']/descendant::a[text()='Book Now'])[1]");
 }

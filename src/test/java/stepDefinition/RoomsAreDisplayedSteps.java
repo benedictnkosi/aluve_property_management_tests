@@ -16,12 +16,9 @@ public class RoomsAreDisplayedSteps {
         driver = testContext.getWebDriverManager().getDriver();
     }
 
-
     @Then("User validates that rooms are displayed")
     public void userValidatesThatRoomsAreDisplayed() {
         WebElement roomView = driver.findElement(RoomPage.roomContainer);
         Assert.assertTrue(roomView.isDisplayed());
     }
-
-
 }

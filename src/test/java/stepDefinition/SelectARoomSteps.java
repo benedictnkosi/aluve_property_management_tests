@@ -31,5 +31,10 @@ public class SelectARoomSteps {
         WebElement openedRoomHeader = driver.findElement(RoomPage.roomHeader(roomName));
         Assert.assertTrue(openedRoomHeader.isDisplayed());
     }
+
+    @When("The user clicks on the Book Now button")
+    public void theUserClicksOnTheBookNowButton() {
+        SeleniumActions.click(RoomPage.BookNowButton, driver);
+    }
 }
 
