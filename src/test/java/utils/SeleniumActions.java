@@ -29,7 +29,7 @@ public class SeleniumActions {
         }
     }
 
-    public static void clickUntil(By toBeDisplayed, By toClick, WebDriver driver) {
+    public static void clickUntilIsDisplayed(By toBeDisplayed, By toClick, WebDriver driver) {
         int maxLoopCount = 0;
         while (!driver.findElement(toBeDisplayed).isDisplayed() && maxLoopCount < 5) {
             System.out.println("element is not displayed");
@@ -42,7 +42,6 @@ public class SeleniumActions {
                 } else {
                     System.out.println("element is not displayed");
                     Thread.sleep(3000);
-
                 }
             } catch (InterruptedException e) {
                 e.printStackTrace();

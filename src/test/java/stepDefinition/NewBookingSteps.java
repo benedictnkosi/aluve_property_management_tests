@@ -38,7 +38,7 @@ public class NewBookingSteps {
 
     @When("User clicks on the room select Add button")
     public void userClicksOnTheRoomSelectAddButton() {
-        SeleniumActions.clickUntil(BookNowPage.nightsMessage, BookNowPage.selectRoomAddButton, driver);
+        SeleniumActions.clickUntilIsDisplayed(BookNowPage.nightsMessage, BookNowPage.selectRoomAddButton, driver);
     }
 
     @Then("User validates room has been added")
