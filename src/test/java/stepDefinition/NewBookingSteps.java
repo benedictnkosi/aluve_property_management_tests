@@ -21,7 +21,7 @@ public class NewBookingSteps {
 
     @Then("User validates booking form is displayed")
     public void user_validates_content_form_is_displayed() {
-        SeleniumActions.wait(BookNowPage.BookingForm, driver);
+        SeleniumActions.waitForVisibility(BookNowPage.BookingForm, driver);
     }
 
     @When("The user enters {string} in field {string}")
@@ -33,7 +33,7 @@ public class NewBookingSteps {
 
     @Then("User validates that rooms tiles are displayed")
     public void userValidatesThatRoomsTilesAreDisplayed() {
-        SeleniumActions.wait(BookNowPage.roomTile, driver);
+        SeleniumActions.waitForVisibility(BookNowPage.roomTile, driver);
     }
 
     @When("User clicks on the room select Add button")
@@ -43,7 +43,7 @@ public class NewBookingSteps {
 
     @Then("User validates room has been added")
     public void userValidatesRoomHasBeenAdded() {
-        SeleniumActions.wait(BookNowPage.nightsMessage, driver);
+        SeleniumActions.waitForVisibility(BookNowPage.nightsMessage, driver);
     }
 
     @When("The user checks the Terms & Conditions checkbox")
@@ -64,7 +64,7 @@ public class NewBookingSteps {
 
     @Then("User validates booking is successful")
     public void userValidatesBookingIsSuccessful() {
-        SeleniumActions.wait(BookNowPage.successfulBookingMessage, driver);
+        SeleniumActions.waitForVisibility(BookNowPage.successfulBookingMessage, driver);
     }
 }
 

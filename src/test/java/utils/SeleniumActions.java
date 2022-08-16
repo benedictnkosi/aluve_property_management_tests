@@ -50,7 +50,7 @@ public class SeleniumActions {
         }
     }
 
-    public static void wait(By by, WebDriver driver) {
+    public static void waitForVisibility(By by, WebDriver driver) {
         WebDriverWait waitElement = new WebDriverWait(driver, Duration.ofSeconds(10));
         waitElement.until(ExpectedConditions.visibilityOfElementLocated(by)).isDisplayed();
     }
