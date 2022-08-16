@@ -12,7 +12,6 @@ import org.openqa.selenium.WebElement;
 import pages.CommonPage;
 import pages.HomePage;
 import pages.MenuPage;
-import pages.RoomPage;
 import utils.ConfigFileReader;
 import utils.SeleniumActions;
 
@@ -46,8 +45,8 @@ public class CommonSteps {
 
     @When("User selects the check-in date {string} and check out date {string}")
     public void userSelectsTheStartDateStartdateAndEndDateEnddate(String CheckInDate, String CheckOutDate) {
-        SeleniumActions.click(RoomPage.dateVariable(CheckInDate), driver);
-        SeleniumActions.click(RoomPage.dateVariable(CheckOutDate), driver);
+        SeleniumActions.click(CommonPage.dateVariable(CheckInDate), driver);
+        SeleniumActions.click(CommonPage.dateVariable(CheckOutDate), driver);
     }
 
     @And("The user clicks on the date picker")
@@ -68,7 +67,7 @@ public class CommonSteps {
 
     @And("The user clicks the calendar button {string}")
     public void theUserClicksTheCalendarButton(String calendarButton) {
-        SeleniumActions.click(RoomPage.calendarButton(calendarButton), driver);
+        SeleniumActions.click(CommonPage.calendarButton(calendarButton), driver);
     }
 
 }

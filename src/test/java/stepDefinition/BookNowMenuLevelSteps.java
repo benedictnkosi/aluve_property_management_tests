@@ -14,11 +14,9 @@ public class BookNowMenuLevelSteps {
     TestContext testContext;
     WebDriver driver;
 
-
     public BookNowMenuLevelSteps(TestContext context) {
         testContext = context;
         driver = testContext.getWebDriverManager().getDriver();
-
     }
 
     @Then("User validates booking form is displayed")
@@ -27,9 +25,9 @@ public class BookNowMenuLevelSteps {
     }
 
     @When("The user enters {string} in field {string}")
-    public void theUserClicksTheInputGridForGuestInformationWithValueName(String inputGrid, String guestInfo) {
+    public void theUserClicksTheInputGridForGuestInformationWithValueName(String guestInfo, String inputGrid) {
         WebElement guestInfoInput = driver.findElement(BookNowPage.GuestDetailInput(inputGrid));
-        guestInfoInput.click();
+        SeleniumActions.click(BookNowPage.GuestDetailInput(inputGrid), driver);
         guestInfoInput.sendKeys(guestInfo);
     }
 
@@ -42,7 +40,6 @@ public class BookNowMenuLevelSteps {
     public void userClicksOnTheRoomSelectAddButton() {
         SeleniumActions.clickUntil(BookNowPage.nightsMessage, BookNowPage.selectRoomAddButton, driver);
     }
-
 
     @Then("User validates room has been added")
     public void userValidatesRoomHasBeenAdded() {

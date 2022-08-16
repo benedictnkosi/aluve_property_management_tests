@@ -5,9 +5,9 @@ Feature: New booking
     When The user clicks on the 'BOOK NOW' top menu
     Then User validates booking form is displayed
 
-    When The user enters 'Your Name' in field '<guestName>'
-    And The user enters 'Phone Number' in field '<guestNumber>'
-    And The user enters 'Email' in field '<guestEmail>'
+    When The user enters '<guestName>' in field 'Your Name'
+    And The user enters '<guestNumber>' in field 'Phone Number'
+    And The user enters '<guestEmail>' in field 'Email'
 
     And The user clicks on the date picker
     Then User validates calendar is displayed
