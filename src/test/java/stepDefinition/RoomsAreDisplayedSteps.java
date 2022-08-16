@@ -2,10 +2,9 @@ package stepDefinition;
 
 import cucumber.TestContext;
 import io.cucumber.java.en.Then;
-import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import pages.RoomPage;
+import utils.SeleniumActions;
 
 public class RoomsAreDisplayedSteps {
     TestContext testContext;
@@ -19,13 +18,11 @@ public class RoomsAreDisplayedSteps {
 
     @Then("User validates that rooms are displayed")
     public void userValidatesThatRoomsAreDisplayed() {
-        WebElement roomView = driver.findElement(RoomPage.roomContainer);
-        Assert.assertTrue(roomView.isDisplayed());
+        SeleniumActions.waitForVisibility(RoomPage.roomContainer, driver);
     }
 
     @Then("User validates that Rooms page is open")
     public void userValidatesThatRoomsPageIsOpen() {
-        WebElement roomPage = driver.findElement(RoomPage.roomPageHeading);
-        Assert.assertTrue(roomPage.isDisplayed());
+        SeleniumActions.waitForVisibility(RoomPage.roomPageHeading, driver);
     }
 }

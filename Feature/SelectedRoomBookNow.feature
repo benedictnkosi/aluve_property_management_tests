@@ -1,6 +1,6 @@
-Feature: Selecting A Room
+Feature: Selected Room Book Now Button
 
-  Scenario Outline: The User Selects a room
+  Scenario Outline: Clicking the displayed Book Now Button
     Given The user is on the home page
     When The user clicks on the 'Rooms' top menu
     Then User validates that Rooms page is open
@@ -15,7 +15,8 @@ Feature: Selecting A Room
     When The User selects an available room with description '<favouriteRoom>'
     Then User validates that the selected room is open with description '<favouriteRoom>'
 
-
+    When The user clicks on the book now button
+    Then User validates booking form is displayed
 
     Examples:
       | start_date | end_date | favouriteRoom            |
