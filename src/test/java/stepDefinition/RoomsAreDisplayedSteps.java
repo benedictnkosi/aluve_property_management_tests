@@ -1,14 +1,11 @@
 package stepDefinition;
 
 import cucumber.TestContext;
-import cucumber.api.java.en.And;
-import cucumber.api.java.en.Then;
-import cucumber.api.java.en.When;
+import io.cucumber.java.en.Then;
 import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import pages.RoomPage;
-import utils.SeleniumActions;
 
 public class RoomsAreDisplayedSteps {
     TestContext testContext;
@@ -19,32 +16,6 @@ public class RoomsAreDisplayedSteps {
         driver = testContext.getWebDriverManager().getDriver();
     }
 
-    @And("The user clicks on the *Click to Select Dates* date picker")
-    public void theUserClicksOnTheClickToSelectDatesDatePicker() {
-        SeleniumActions.click(RoomPage.inputDate, driver);
-    }
-
-    @Then("User validates calendar is visible")
-    public void userValidatesCalendarIsPresent() {
-        WebElement calendar = driver.findElement(RoomPage.calendarTable);
-        Assert.assertTrue(calendar.isDisplayed());
-    }
-
-    @When("User selects the check-in date {string} and check out date {string}")
-    public void userSelectsTheStartDateStartdateAndEndDateEnddate(String CheckInDate, String CheckOutDate) {
-        SeleniumActions.click(RoomPage.dateVariable(CheckInDate), driver);
-        SeleniumActions.click(RoomPage.dateVariable(CheckOutDate), driver);
-    }
-
-    @And("The user clicks the calendar button {string}")
-    public void theUserClicksTheCalendarButton(String calendarButton) {
-        SeleniumActions.click(RoomPage.calendarButton(calendarButton), driver);
-    }
-
-    @When("User clicks on invalid date")
-    public void userClicksOnInvalidDate() {
-        SeleniumActions.click(RoomPage.disabledDate, driver);
-    }
 
     @Then("User validates that rooms are displayed")
     public void userValidatesThatRoomsAreDisplayed() {
