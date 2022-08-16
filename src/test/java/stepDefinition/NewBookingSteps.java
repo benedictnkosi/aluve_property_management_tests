@@ -10,11 +10,11 @@ import pages.BookNowPage;
 import utils.SeleniumActions;
 
 
-public class BookNowMenuLevelSteps {
+public class NewBookingSteps {
     TestContext testContext;
     WebDriver driver;
 
-    public BookNowMenuLevelSteps(TestContext context) {
+    public NewBookingSteps(TestContext context) {
         testContext = context;
         driver = testContext.getWebDriverManager().getDriver();
     }
@@ -64,7 +64,7 @@ public class BookNowMenuLevelSteps {
 
     @Then("User validates booking is successful")
     public void userValidatesBookingIsSuccessful() {
-        SeleniumActions.wait(BookNowPage.successfulBooking, driver);
+        SeleniumActions.wait(BookNowPage.successfulBookingMessage, driver);
     }
 }
 
