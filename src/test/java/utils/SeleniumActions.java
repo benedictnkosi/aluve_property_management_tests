@@ -1,5 +1,6 @@
 package utils;
 
+import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.ElementClickInterceptedException;
 import org.openqa.selenium.StaleElementReferenceException;
@@ -51,6 +52,7 @@ public class SeleniumActions {
 
     public static void waitForVisibility(By by, WebDriver driver) {
         WebDriverWait waitElement = new WebDriverWait(driver, Duration.ofSeconds(10));
-        waitElement.until(ExpectedConditions.visibilityOfElementLocated(by)).isDisplayed();
+        waitElement.until(ExpectedConditions.visibilityOfElementLocated(by));
+        Assert.assertTrue(driver.findElement(by).isDisplayed());
     }
 }

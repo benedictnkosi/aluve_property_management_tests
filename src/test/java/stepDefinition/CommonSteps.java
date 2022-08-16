@@ -69,5 +69,4 @@ public class CommonSteps {
     public void theUserClicksTheCalendarButton(String calendarButton) {
         SeleniumActions.click(CommonPage.calendarButton(calendarButton), driver);
     }
-
 }
