@@ -22,5 +22,6 @@ public class HomePage {
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
         wait.until(ExpectedConditions.presenceOfElementLocated(loggedInHeader));
     }
+    public static By homePage = By.xpath("(//div[@class='banner-info']/descendant::h5[contains(text(),'Comfortable')])[2]");
 
 }
