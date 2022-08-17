@@ -57,6 +57,13 @@ public class NewBookingSteps {
         SeleniumActions.click(BookNowPage.BookingFormBookNowButton, driver);
     }
 
+    @Then("User validates booking form is displayed")
+    public void user_validates_booking_form_is_displayed() {
+        SeleniumActions.waitForVisibility(BookNowPage.BookingForm, driver);
+        WebElement bookNowFormPage = driver.findElement(BookNowPage.BookingForm);
+        Assert.assertTrue(bookNowFormPage.isDisplayed());
+    }
+
     @Then("User validates booking is successful")
     public void userValidatesBookingIsSuccessful() {
         SeleniumActions.waitForVisibility(BookNowPage.successfulBookingMessage, driver);
