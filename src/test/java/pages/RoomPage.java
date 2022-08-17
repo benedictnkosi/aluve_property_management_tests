@@ -14,11 +14,8 @@ public class RoomPage {
     public static By roomHeader(String favRoom) {
         return By.xpath("//*[@class='room-single-block']/descendant::*[@id='room_name' and text()='" + favRoom + "']");
     }
-
     public static By RoomInnerBookNowButton = By.xpath("//div[@class='container']/descendant::div[contains(@class,'book-btn')]/child::a[text()='Book Now']");
-
     public static By roomImage(String roomDescription) {
-        return By.xpath("//a[text()='" + roomDescription + "']/ancestor::div[@class='room-info']/ancestor::div[@class='maghny-grid']/descendant::figcaption");
+        return By.xpath("//a[text()='" + roomDescription + "']/ancestor::div/ancestor::div[@class='maghny-grid']/descendant::figcaption/preceding-sibling::img/parent::figure");
     }
-
 }
