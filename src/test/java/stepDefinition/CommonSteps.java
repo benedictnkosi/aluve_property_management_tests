@@ -11,7 +11,6 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import pages.CommonPage;
 import pages.HomePage;
-import pages.MenuPage;
 import utils.ConfigFileReader;
 import utils.SeleniumActions;
 
@@ -35,12 +34,6 @@ public class CommonSteps {
     @Given("The user is on the home page")
     public void the_user_has_logged_in_the_website() {
         homePage.OpenHomePage();
-    }
-
-    @When("The user clicks on the {string} top menu")
-    public void theUserClicksOnTheTopMenu(String menu) {
-        WebElement topMenu = driver.findElement(MenuPage.topMenu(menu));
-        topMenu.click();
     }
 
     @When("User selects the check-in date {string} and check out date {string}")
