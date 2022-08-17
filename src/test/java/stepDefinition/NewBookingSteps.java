@@ -19,11 +19,6 @@ public class NewBookingSteps {
         driver = testContext.getWebDriverManager().getDriver();
     }
 
-    @Then("User validates booking form is displayed")
-    public void user_validates_content_form_is_displayed() {
-        SeleniumActions.waitForVisibility(BookNowPage.BookingForm, driver);
-    }
-
     @When("The user enters {string} in field {string}")
     public void theUserClicksTheInputGridForGuestInformationWithValueName(String guestInfo, String inputGrid) {
         WebElement guestInfoInput = driver.findElement(BookNowPage.GuestDetailInput(inputGrid));
