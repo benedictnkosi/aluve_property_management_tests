@@ -1,6 +1,6 @@
 Feature: Selected Room Book Now Button
 
-  Scenario Outline: Clicking the displayed Book Now Button
+  Scenario Outline: Clicking the Selected Room Book Now Button
     Given The user is on the home page
     When The user clicks on the 'Rooms' top menu
     Then User validates that Rooms page is open
