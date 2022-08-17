@@ -12,4 +12,5 @@ public class RoomPage {
     public static By roomHeader(String favRoom) {
         return By.xpath("//*[@class='room-single-block']/descendant::*[@id='room_name' and text()='" + favRoom + "']");
     }
+    public static By RoomInnerBookNowButton = By.xpath("//div[@class='container']/descendant::div[contains(@class,'book-btn')]/child::a[text()='Book Now']");
 }
