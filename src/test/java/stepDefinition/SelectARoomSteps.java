@@ -10,7 +10,6 @@ import pages.RoomPage;
 import utils.SeleniumActions;
 
 
-
 public class SelectARoomSteps {
 
     TestContext testContext;
@@ -28,8 +27,15 @@ public class SelectARoomSteps {
 
     @Then("User validates that the selected room is open with description {string}")
     public void userValidatesThatTheSelectedRoomIsOpenWithDescription(String roomName) {
-        WebElement openedRoomHeader = driver.findElement(RoomPage.roomHeader(roomName));
-        Assert.assertTrue(openedRoomHeader.isDisplayed());
+        SeleniumActions.waitForVisibility(RoomPage.roomHeader(roomName), driver);
+        WebElement roomHeader = driver.findElement(RoomPage.roomHeader(roomName));
+        Assert.assertTrue(roomHeader.isDisplayed());
     }
+
+    @When("The user clicks on the book now button")
+    public void theUserClicksOnTheBookNowButton() {
+        SeleniumActions.click(RoomPage.RoomInnerBookNowButton, driver);
+    }
+
 }
 
