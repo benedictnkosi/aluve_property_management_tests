@@ -10,11 +10,11 @@ import pages.BookNowPage;
 import utils.SeleniumActions;
 
 
-public class NewBookingSteps {
+public class BookingSteps {
     TestContext testContext;
     WebDriver driver;
 
-    public NewBookingSteps(TestContext context) {
+    public BookingSteps(TestContext context) {
         testContext = context;
         driver = testContext.getWebDriverManager().getDriver();
     }

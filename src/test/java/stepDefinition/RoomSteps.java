@@ -9,15 +9,27 @@ import org.openqa.selenium.WebElement;
 import pages.RoomPage;
 import utils.SeleniumActions;
 
-
-public class SelectARoomSteps {
-
+public class RoomSteps {
     TestContext testContext;
     WebDriver driver;
 
-    public SelectARoomSteps(TestContext context) {
+    public RoomSteps(TestContext context) {
         testContext = context;
         driver = testContext.getWebDriverManager().getDriver();
+    }
+
+    @Then("User validates that rooms are displayed")
+    public void userValidatesThatRoomsAreDisplayed() {
+        SeleniumActions.waitForVisibility(RoomPage.roomContainer, driver);
+        WebElement roomContainer = driver.findElement(RoomPage.roomContainer);
+        Assert.assertTrue(roomContainer.isDisplayed());
+    }
+
+    @Then("User validates that Rooms page is open")
+    public void userValidatesThatRoomsPageIsOpen() {
+        SeleniumActions.waitForVisibility(RoomPage.roomPageHeading, driver);
+        WebElement roomPageHeading = driver.findElement(RoomPage.roomPageHeading);
+        Assert.assertTrue(roomPageHeading.isDisplayed());
     }
 
     @When("The User selects an available room with description {string}")
@@ -37,5 +49,9 @@ public class SelectARoomSteps {
         SeleniumActions.click(RoomPage.RoomInnerBookNowButton, driver);
     }
 
-}
+    @When("The user clicks on the image of the room with the description {string}")
+    public void theUserClicksOnTheImageFromTheRoomWithTheDescriptionFavouriteRoom(String image) {
+        SeleniumActions.click(RoomPage.roomImage(image), driver);
+    }
 
+}
