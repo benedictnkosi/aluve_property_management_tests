@@ -37,7 +37,7 @@ public class SelectARoomSteps {
         SeleniumActions.click(RoomPage.RoomInnerBookNowButton, driver);
     }
 
-    @When("The user clicks on the image from the room with the description {string}")
+    @When("The user clicks on the image of the room with the description {string}")
     public void theUserClicksOnTheImageFromTheRoomWithTheDescriptionFavouriteRoom(String image) {
         SeleniumActions.click(RoomPage.roomImage(image), driver);
     }

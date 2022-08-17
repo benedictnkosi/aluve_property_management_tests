@@ -12,7 +12,7 @@ Feature: Selecting The Room Image
     And The user clicks the calendar button 'Apply'
     Then User validates that rooms are displayed
 
-    When The user clicks on the image from the room with the description '<favouriteRoom>'
+    When The user clicks on the image of the room with the description '<favouriteRoom>'
     Then User validates that the selected room is open with description '<favouriteRoom>'
 
     Examples:
