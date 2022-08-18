@@ -41,13 +41,6 @@ public class FooterSteps {
         SeleniumActions.click(FooterPage.footerMenuLinks(link), driver);
     }
 
-    @Then("User validates Terms and Conditions page is displayed")
-    public void userValidatesTermsAndConditionsPageIsDisplayed() {
-        SeleniumActions.waitForVisibility(FooterPage.termsAndConditions, driver);
-        WebElement terms = driver.findElement(FooterPage.termsAndConditions);
-        Assert.assertTrue(terms.isDisplayed());
-    }
-
 
 }
 
