@@ -35,6 +35,20 @@ public class FooterSteps {
         driver.close();
         driver.switchTo().window(tabs2.get(0));
     }
+
+    @When("User clicks footer link with value {string}")
+    public void userClicksFooterLinkWithValueRooms(String link) {
+        SeleniumActions.click(FooterPage.footerMenuLinks(link), driver);
+    }
+
+    @Then("User validates Terms and Conditions page is displayed")
+    public void userValidatesTermsAndConditionsPageIsDisplayed() {
+        SeleniumActions.waitForVisibility(FooterPage.termsAndConditions, driver);
+        WebElement terms = driver.findElement(FooterPage.termsAndConditions);
+        Assert.assertTrue(terms.isDisplayed());
+    }
+
+
 }
 
 
