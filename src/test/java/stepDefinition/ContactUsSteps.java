@@ -25,16 +25,6 @@ public class ContactUsSteps {
         Assert.assertTrue(contactUsPage.isDisplayed());
     }
 
-    @When("The user clicks on the contact number")
-    public void theUserClicksOnTheContactNumber() {
-        SeleniumActions.click(ContactUsPage.contactNumber, driver);
-    }
-
-    @When("The user clicks on the contact email")
-    public void theUserClicksOnTheContactEmail() {
-        SeleniumActions.click(ContactUsPage.contactMail, driver);
-    }
-
     @When("User clicks on input field {string} and enters {string}")
     public void userClicksOnInputFieldNameAndEntersGuestName(String placeHolder, String info) {
         WebElement inputGuestInfo = driver.findElement(ContactUsPage.sendMessageFormInput(placeHolder));
