@@ -25,8 +25,8 @@ public class ContactUsSteps {
         Assert.assertTrue(contactUsPage.isDisplayed());
     }
 
-    @When("User clicks on input field {string} and enters {string}")
-    public void userClicksOnInputFieldNameAndEntersGuestName(String placeHolder, String info) {
+    @When("User enters {string} on input field {string}")
+    public void userClicksOnInputFieldNameAndEntersGuestName(String info, String placeHolder) {
         WebElement inputGuestInfo = driver.findElement(ContactUsPage.sendMessageFormInput(placeHolder));
         SeleniumActions.click(ContactUsPage.sendMessageFormInput(placeHolder), driver);
         inputGuestInfo.sendKeys(info);
@@ -35,12 +35,5 @@ public class ContactUsSteps {
     @When("The user clicks on the send message button")
     public void theUserClicksOnTheSendMessageButton() {
         SeleniumActions.click(ContactUsPage.sendMessageButton, driver);
-    }
-
-    @Then("User validates message is successfully sent")
-    public void userValidatesMessageIsSuccessfullySent() {
-        SeleniumActions.waitForVisibility(ContactUsPage.successMessageDisplay, driver);
-        WebElement contactUsPage = driver.findElement(ContactUsPage.successMessageDisplay);
-        Assert.assertTrue(contactUsPage.isDisplayed());
     }
 }

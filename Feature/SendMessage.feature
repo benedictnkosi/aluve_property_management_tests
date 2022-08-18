@@ -7,10 +7,10 @@ Feature: Send Message
     When The user clicks on the 'Contact Us' top menu
     Then User validates that Contact Us page is open
 
-    When User clicks on input field 'Name' and enters '<guestName>'
-    When User clicks on input field 'Email' and enters '<guestEmail>'
-    When User clicks on input field 'Phone Number' and enters '<guestNumber>'
-    When User clicks on input field 'Message' and enters '<guestMessage>'
+    When User enters '<guestName>' on input field 'Name'
+    When User enters '<guestEmail>' on input field 'Email'
+    When User enters '<guestNumber>' on input field 'Phone Number'
+    When User enters '<guestMessage>' on input field 'Message'
 
     When The user clicks on the send message button
     Then User validates message is successfully sent
