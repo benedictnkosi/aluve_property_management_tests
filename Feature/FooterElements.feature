@@ -1,4 +1,4 @@
-Feature: Footer Elements Select
+Feature: Footer Elements
 
   Scenario: Validating functionality of the footer elements
     Given The user is on the home page
