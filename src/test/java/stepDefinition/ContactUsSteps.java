@@ -34,4 +34,23 @@ public class ContactUsSteps {
     public void theUserClicksOnTheContactEmail() {
         SeleniumActions.click(ContactUsPage.contactMail, driver);
     }
+
+    @When("User clicks on input field {string} and enters {string}")
+    public void userClicksOnInputFieldNameAndEntersGuestName(String placeHolder, String info) {
+        WebElement inputGuestInfo = driver.findElement(ContactUsPage.sendMessageFormInput(placeHolder));
+        SeleniumActions.click(ContactUsPage.sendMessageFormInput(placeHolder), driver);
+        inputGuestInfo.sendKeys(info);
+    }
+
+    @When("The user clicks on the send message button")
+    public void theUserClicksOnTheSendMessageButton() {
+        SeleniumActions.click(ContactUsPage.sendMessageButton, driver);
+    }
+
+    @Then("User validates message is successfully sent")
+    public void userValidatesMessageIsSuccessfullySent() {
+        SeleniumActions.waitForVisibility(ContactUsPage.successMessageDisplay, driver);
+        WebElement contactUsPage = driver.findElement(ContactUsPage.successMessageDisplay);
+        Assert.assertTrue(contactUsPage.isDisplayed());
+    }
 }

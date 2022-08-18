@@ -7,8 +7,8 @@ public class ContactUsPage {
     public static By contactNumber = By.xpath("//div[@class='cont-details']/descendant::p//a[@id='contact_number']");
     public static By contactMail = By.xpath("//div[@class='cont-details']/descendant::p//a[@id='contact_email']");
     public static By sendMessageButton = By.xpath("//form/descendant::button[contains(@class,'contact')]");
-
+    public static By successMessageDisplay = By.xpath("//div[contains(@id,'success')]");
     public static By sendMessageFormInput(String personalInfo) {
-        return By.xpath("//form/descendant::input[@placeholder='" + personalInfo + "']");
+        return By.xpath("//form/descendant::*[@placeholder='" + personalInfo + "']");
     }
 }
