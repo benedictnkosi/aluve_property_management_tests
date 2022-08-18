@@ -36,4 +36,12 @@ public class ContactUsSteps {
     public void theUserClicksOnTheSendMessageButton() {
         SeleniumActions.click(ContactUsPage.sendMessageButton, driver);
     }
+
+    @Then("User validates message is successfully sent")
+    public void userValidatesMessageIsSuccessfullySent() {
+        SeleniumActions.waitForVisibility(ContactUsPage.successMessageDisplay, driver);
+        WebElement successfulSentMessage = driver.findElement(ContactUsPage.successMessageDisplay);
+        Assert.assertTrue(successfulSentMessage.isDisplayed());
+    }
+
 }

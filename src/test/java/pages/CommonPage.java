@@ -12,5 +12,5 @@ public class CommonPage {
     public static By calendarButton(String button) {
         return By.xpath("//div[@class='drp-buttons']/button[text()='" + button + "']");
     }
-    public static By successMessageDisplay = By.xpath("//div[contains(@id,'success')]");
+
 }

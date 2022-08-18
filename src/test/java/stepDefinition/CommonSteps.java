@@ -63,10 +63,5 @@ public class CommonSteps {
         SeleniumActions.click(CommonPage.calendarButton(calendarButton), driver);
     }
 
-    @Then("User validates message is successfully sent")
-    public void userValidatesMessageIsSuccessfullySent() {
-        SeleniumActions.waitForVisibility(CommonPage.successMessageDisplay, driver);
-        WebElement contactUsPage = driver.findElement(CommonPage.successMessageDisplay);
-        Assert.assertTrue(contactUsPage.isDisplayed());
-    }
+
 }
