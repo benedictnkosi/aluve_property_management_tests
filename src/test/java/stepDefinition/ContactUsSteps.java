@@ -2,6 +2,7 @@ package stepDefinition;
 
 import cucumber.TestContext;
 import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
 import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -22,5 +23,15 @@ public class ContactUsSteps {
         SeleniumActions.waitForVisibility(ContactUsPage.ContactUsHeading, driver);
         WebElement contactUsPage = driver.findElement(ContactUsPage.ContactUsHeading);
         Assert.assertTrue(contactUsPage.isDisplayed());
+    }
+
+    @When("The user clicks on the contact number")
+    public void theUserClicksOnTheContactNumber() {
+        SeleniumActions.click(ContactUsPage.contactNumber, driver);
+    }
+
+    @When("The user clicks on the contact email")
+    public void theUserClicksOnTheContactEmail() {
+        SeleniumActions.click(ContactUsPage.contactMail, driver);
     }
 }
