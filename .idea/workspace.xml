@@ -4,16 +4,9 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="211edf1b-d4c7-4348-b501-81bba3b5dcbd" name="Default Changelist" comment="zero warnings">
-      <change afterPath="$PROJECT_DIR$/src/test/java/utils/AluveRestAssured.java" afterDir="false" />
+    <list default="true" id="211edf1b-d4c7-4348-b501-81bba3b5dcbd" name="Default Changelist" comment="Verifying footer elements functionality">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/DTO/BudgetDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/DTO/CustomTransactionNameDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/DTO/LoginDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/LoginPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/stepDefinition/Login_Test_Steps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepDefinition/Login_Test_Steps.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/utils/ConfigFileReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utils/ConfigFileReader.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,27 +46,6 @@
     </replaceStrings>
   </component>
   <component name="Git.Settings">
-    <option name="ROOT_SYNC" value="DONT_SYNC" />
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="master" />
-      </map>
-    </option>
-    <option name="AUTO_COMMIT_ON_CHERRY_PICK" value="true" />
-    <favorite-branches>
-      <branch-storage>
-        <map>
-          <entry type="LOCAL">
-            <value>
-              <list>
-                <branch-info repo="$PROJECT_DIR$" source="budget_tests" />
-              </list>
-            </value>
-          </entry>
-        </map>
-      </branch-storage>
-    </favorite-branches>
     <excluded-from-favorite>
       <branch-storage>
         <map>
@@ -87,6 +59,47 @@
         </map>
       </branch-storage>
     </excluded-from-favorite>
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="budget_tests" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Mlulekigit config --global user.email mlu78nkosi@gmail.com &lt;mlu78nkosi@gmail.com&gt;" />
+      </list>
+    </option>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="FooterElements" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="recentNewPullRequestHead">
+      <RepoCoordinatesHolder>
+        <option name="owner" value="benedictnkosi" />
+        <option name="repository" value="aluve_property_management_tests" />
+      </RepoCoordinatesHolder>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -203,16 +216,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;
-  }
-}</component>
+  <component name="PropertiesComponent">
+    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Feature" />
+  </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Toshiba\Aluve_Property_Management_1\Feature" />
+      <recent name="C:\Users\Lenovo\Documents\GitHub\moneyapp_cucumber_tests\src\test\java" />
+      <recent name="C:\Users\Lenovo\Documents\GitHub\moneyapp_cucumber_tests" />
+      <recent name="C:\Users\Lenovo\Documents\GitHub\moneyapp_cucumber_tests\Feature" />
+      <recent name="C:\Users\Lenovo\IdeaProjects\MoneyAppTesting_Cucumber\Feature" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="stepDefinition" />
       <recent name="DTO" />
@@ -220,40 +235,17 @@
       <recent name="utils" />
       <recent name="pages" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Lenovo\Documents\GitHub\moneyapp_cucumber_tests\src\test\java" />
-      <recent name="C:\Users\Lenovo\Documents\GitHub\moneyapp_cucumber_tests" />
-      <recent name="C:\Users\Lenovo\Documents\GitHub\moneyapp_cucumber_tests\Feature" />
-      <recent name="C:\Users\Lenovo\IdeaProjects\MoneyAppTesting_Cucumber\Feature" />
-      <recent name="C:\Users\Lenovo\IdeaProjects\MoneyAppTesting_Cucumber\src\test\java" />
-    </key>
   </component>
-  <component name="RunManager" selected="JUnit.RunCucumberTest (1)">
-    <configuration name="Feature: Budget_Test" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Cucumber Java.Scenario: Making A New Booking">
+    <configuration name="Scenario: Making A New Booking" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/Feature/Budget_Test.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/Feature/New_Booking.feature" />
+      <option name="GLUE" value="stepDefinition" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="aluve_property_management_tests" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: Budget_Test" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Feature: LogIn_Test" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/Feature/LogIn_Test.feature" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="aluve_property_management_tests" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: LogIn_Test" />
+      <module name="Aluve-PMS-Testing" />
+      <option name="NAME_FILTER" value="^Making A New Booking$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Making A New Booking$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Making A New Booking" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -422,9 +414,9 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Cucumber Java.Feature: Budget_Test" />
-      <item itemvalue="Cucumber Java.Feature: LogIn_Test" />
       <item itemvalue="Cucumber Java.Scenario: Successful Login with Valid Credentials" />
+      <item itemvalue="Cucumber Java.Scenario: Making A New Booking" />
+      <item itemvalue="JUnit.TestRunner" />
       <item itemvalue="JUnit.RunCucumberTest (1)" />
       <item itemvalue="JUnit.RunCucumberTest" />
       <item itemvalue="TestNG.BudgetTest" />
@@ -433,11 +425,11 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.RunCucumberTest (1)" />
+        <item itemvalue="Cucumber Java.Scenario: Making A New Booking" />
         <item itemvalue="JUnit.RunCucumberTest" />
+        <item itemvalue="JUnit.RunCucumberTest (1)" />
+        <item itemvalue="JUnit.TestRunner" />
         <item itemvalue="Cucumber Java.Scenario: Successful Login with Valid Credentials" />
-        <item itemvalue="Cucumber Java.Feature: LogIn_Test" />
-        <item itemvalue="Cucumber Java.Feature: Budget_Test" />
       </list>
     </recent_temporary>
   </component>
@@ -495,7 +487,175 @@
       <option name="project" value="LOCAL" />
       <updated>1657713002394</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Book now button displayed when room is selected">
+      <created>1660652077670</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1660652077670</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Book now button displayed when room is selected">
+      <created>1660654830774</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1660654830775</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Book now button displayed when room is selected">
+      <created>1660661027161</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1660661027161</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Book now button displayed when room is selected">
+      <created>1660661100794</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1660661100794</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Book now button displayed when room is selected">
+      <created>1660724842716</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1660724842716</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Book now button displayed when room is selected">
+      <created>1660729259500</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1660729259500</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Checking the menu pages are opened correctly">
+      <created>1660732688275</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1660732688275</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Checking the menu pages are opened correctly">
+      <created>1660734610927</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1660734610927</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Clicking on the room image">
+      <created>1660741568146</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1660741568146</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Clicking on the room image">
+      <created>1660741609901</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1660741609901</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Clicking on the room image">
+      <created>1660742982837</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1660742982837</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Clicking on the room image">
+      <created>1660744783281</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1660744783281</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Con">
+      <created>1660813521663</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1660813521663</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Sending a message">
+      <created>1660816108242</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1660816108242</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Sending a message">
+      <created>1660817694484</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1660817694484</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Sending a message">
+      <created>1660819912324</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1660819912324</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Footer Contact Icons">
+      <created>1660825289056</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1660825289056</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Footer Page Links">
+      <created>1660829385075</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1660829385075</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Footer Contact Icons">
+      <created>1660829581801</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1660829581801</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Footer Contact Icons">
+      <created>1660832169334</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1660832169334</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Footer Contact Icons">
+      <created>1660832588878</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1660832588878</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Verifying footer elements functionality">
+      <created>1660832988194</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1660832988194</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Verifying footer elements functionality">
+      <created>1660833016605</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1660833016605</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Verifying footer elements functionality">
+      <created>1660833759789</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1660833759789</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -602,31 +762,40 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="ContactUs_SendMessage" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added budget test for adding budget item" />
     <MESSAGE value="code refactoring&#10;--started using configuration file with java properties class&#10;--Added a page object manager class&#10;--Added Web Driver manager class" />
     <MESSAGE value="zero warnings" />
-    <option name="LAST_COMMIT_MESSAGE" value="zero warnings" />
+    <MESSAGE value="Book now button displayed when room is selected" />
+    <MESSAGE value="Checking the menu pages are opened correctly" />
+    <MESSAGE value="Clicking on the room image" />
+    <MESSAGE value="Sending a message" />
+    <MESSAGE value="Footer Page Links" />
+    <MESSAGE value="Footer Contact Icons" />
+    <MESSAGE value="Verifying footer elements functionality" />
+    <option name="LAST_COMMIT_MESSAGE" value="Verifying footer elements functionality" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/stepDefinition/Login_Test_Steps.java</url>
-          <line>68</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
@@ -661,7 +830,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../GumtreeAdsAutomation/src/main/java/DTO/LoginDTO.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/properties/Application.java" />
-    <entry file="file://$USER_HOME$/.IdeaIC2019.1/system/temp-testng-customsuite.xml">
+    <entry file="file://$PROJECT_DIR$/../.IdeaIC2019.1/system/temp-testng-customsuite.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" selection-start-line="9" selection-end-line="9" />
