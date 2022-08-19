@@ -1,9 +1,9 @@
-package stepDefinition;
+package stepDefinition.Guest;
 
 import cucumber.TestContext;
 import io.cucumber.java.en.When;
 import org.openqa.selenium.WebDriver;
-import pages.MenuPage;
+import pages.Guest.MenuPage;
 import utils.SeleniumActions;
 
 public class MenuSteps {

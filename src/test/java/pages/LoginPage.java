@@ -11,21 +11,27 @@ import java.time.Duration;
 
 public class LoginPage {
     WebDriver driver;
-    By password = By.id("secret");
-    By loginButton = By.xpath("//button[@type=\"submit\"]");
-    By loginPageHeader = By.xpath("//h2[@class='login-heading']");
-    By loggedInHeader = By.xpath("//h1[text()='Guesthouse Management']");
+    By email = By.xpath("//input[@placeholder='Email']");
+    By password = By.xpath("//input[@placeholder='Password']");
+    By loginButton = By.xpath("//input[@type=\"submit\"]");
+    By loginPageHeader = By.xpath("//h1[text()='Log In Page']");
+
+
 
     public LoginPage(WebDriver driver) {
         this.driver = driver;
     }
 
-    //set password in textbox
+    public void enterEmail(String strEmail) {
+        driver.findElement(email).sendKeys(strEmail);
+    }
+
+    //set password in text-box
     public void setPassword(String strPassword) {
         driver.findElement(password).sendKeys(strPassword);
     }
 
-    //set password in textbox
+    //set password in text-box
     public void clickLoginButton() {
         driver.findElement(loginButton).click();
     }
@@ -33,7 +39,7 @@ public class LoginPage {
     public boolean isUserLoggedIn() {
         try {
             WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-            wait.until(ExpectedConditions.presenceOfElementLocated(loggedInHeader));
+            wait.until(ExpectedConditions.presenceOfElementLocated(CalendarPage.calendarHeader));
             return true;
         } catch (Exception ex) {
             return false;
@@ -44,7 +50,7 @@ public class LoginPage {
         this.setPassword(password);
         this.clickLoginButton();
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-        wait.until(ExpectedConditions.presenceOfElementLocated(loggedInHeader));
+        wait.until(ExpectedConditions.presenceOfElementLocated(CalendarPage.calendarHeader));
     }
 
     public void OpenLoginPage() {

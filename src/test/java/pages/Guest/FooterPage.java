@@ -1,4 +1,4 @@
-package pages;
+package pages.Guest;
 
 import org.openqa.selenium.By;
 

@@ -1,11 +1,11 @@
-package stepDefinition;
+package stepDefinition.Guest;
 
 import cucumber.TestContext;
 import io.cucumber.java.en.Then;
 import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import pages.HomePage;
+import pages.Guest.HomePage;
 import utils.SeleniumActions;
 
 public class HomePageSteps {
