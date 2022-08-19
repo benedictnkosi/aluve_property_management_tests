@@ -37,6 +37,12 @@ public class LoginTestSteps {
         loginPage.OpenLoginPage();
     }
 
+    @Given("The user has logged in")
+    public void theUserHasLoggedIn() {
+        loginPage.OpenLoginPage();
+        loginPage.LoggingInUser();
+    }
+
     @When("^User logs in with \"(.*)\"$")
     public void user_enters_UserName(String password) {
         loginPage.LoginUser(password);
@@ -62,7 +68,6 @@ public class LoginTestSteps {
     public void user_is_redirected_to_the_Login_page() {
         log.debug("Logout application");
     }
-
 
     @When("User enters the email {string}")
     public void userEntersTheEmail(String email) {

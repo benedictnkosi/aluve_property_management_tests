@@ -65,6 +65,25 @@ public class ConfigFileReader {
         }
     }
 
+    public String getUsername() {
+        String username = this.properties.getProperty("username");
+        if (username != null) {
+            return username;
+        } else {
+            throw new RuntimeException("No email option");
+        }
+    }
+
+    public String getPassword() {
+        String password = this.properties.getProperty("password");
+        if (password != null) {
+            return password;
+        } else {
+            throw new RuntimeException("No password option");
+        }
+    }
+
+
     public DriverType getBrowser() {
         String browserName = properties.getProperty("browser");
         if (browserName == null || browserName.equals("chrome")) return DriverType.CHROME;

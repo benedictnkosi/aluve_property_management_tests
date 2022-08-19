@@ -10,6 +10,7 @@ public class PageObjectManager {
     private LoginPage loginPage;
     private HomePage homePage;
 
+
     public PageObjectManager(WebDriver driver) {
         this.driver = driver;
     }
@@ -22,5 +23,6 @@ public class PageObjectManager {
 
         return (homePage == null) ? homePage = new HomePage(driver) : homePage;
     }
+
 
 }

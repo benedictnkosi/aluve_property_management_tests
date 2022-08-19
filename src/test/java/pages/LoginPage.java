@@ -53,6 +53,15 @@ public class LoginPage {
         wait.until(ExpectedConditions.presenceOfElementLocated(CalendarPage.calendarHeader));
     }
 
+    public void LoggingInUser() {
+        ConfigFileReader configReader = new ConfigFileReader();
+        driver.findElement(email).sendKeys(configReader.getUsername());
+        driver.findElement(password).sendKeys(configReader.getPassword());
+        driver.findElement(loginButton).click();
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+        wait.until(ExpectedConditions.presenceOfElementLocated(CalendarPage.calendarHeader));
+    }
+
     public void OpenLoginPage() {
         ConfigFileReader configReader = new ConfigFileReader();
         driver.get(configReader.getApplicationUrl());
