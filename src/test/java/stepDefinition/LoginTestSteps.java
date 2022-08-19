@@ -64,6 +64,12 @@ public class LoginTestSteps {
     }
 
 
+    @When("User enters the email {string}")
+    public void userEntersTheEmail(String email) {
+        loginPage.enterEmail(email);
+    }
+
+
 //    @After
 //    public void teardown() {
 //        testContext.getWebDriverManager().closeDriver();
