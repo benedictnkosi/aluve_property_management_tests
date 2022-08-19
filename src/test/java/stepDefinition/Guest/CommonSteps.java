@@ -1,4 +1,4 @@
-package stepDefinition;
+package stepDefinition.Guest;
 
 import cucumber.TestContext;
 import io.cucumber.java.en.And;
@@ -9,8 +9,8 @@ import managers.PageObjectManager;
 import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import pages.CommonPage;
-import pages.HomePage;
+import pages.Guest.CommonPage;
+import pages.Guest.HomePage;
 import utils.ConfigFileReader;
 import utils.SeleniumActions;
 

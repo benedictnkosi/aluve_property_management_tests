@@ -5,8 +5,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="211edf1b-d4c7-4348-b501-81bba3b5dcbd" name="Default Changelist" comment="Verifying footer elements functionality">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Feature/ClickingRoomImage.feature" beforeDir="false" afterPath="$PROJECT_DIR$/Feature/GuestFeature/ClickingRoomImage.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Feature/FooterElements.feature" beforeDir="false" afterPath="$PROJECT_DIR$/Feature/GuestFeature/FooterElements.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Feature/MenuPages.feature" beforeDir="false" afterPath="$PROJECT_DIR$/Feature/GuestFeature/MenuPages.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Feature/New_Booking.feature" beforeDir="false" afterPath="$PROJECT_DIR$/Feature/GuestFeature/New_Booking.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Feature/Room.feature" beforeDir="false" afterPath="$PROJECT_DIR$/Feature/GuestFeature/Room.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Feature/SelectedRoomBookNow.feature" beforeDir="false" afterPath="$PROJECT_DIR$/Feature/GuestFeature/SelectedRoomBookNow.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Feature/Selecting_A_Room.feature" beforeDir="false" afterPath="$PROJECT_DIR$/Feature/GuestFeature/Selecting_A_Room.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Feature/SendMessage.feature" beforeDir="false" afterPath="$PROJECT_DIR$/Feature/GuestFeature/SendMessage.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/managers/PageObjectManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/managers/PageObjectManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/BookNowPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/Guest/BookNowPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/CommonPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/Guest/CommonPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/ContactUsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/Guest/ContactUsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/FooterPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/Guest/FooterPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/Guest/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/MenuPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/Guest/MenuPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/RoomPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/Guest/RoomPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/TermsAndConditionsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/Guest/TermsAndConditionsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinition/BookingSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinition/Guest/BookingSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinition/CommonSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinition/Guest/CommonSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinition/ContactUsSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinition/Guest/ContactUsSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinition/FooterSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinition/Guest/FooterSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinition/HomePageSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinition/Guest/HomePageSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinition/MenuSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinition/Guest/MenuSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinition/RoomSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinition/Guest/RoomSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinition/TermsAndConditionSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinition/Guest/TermsAndConditionSteps.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -227,6 +251,9 @@
       <recent name="C:\Users\Lenovo\Documents\GitHub\moneyapp_cucumber_tests" />
       <recent name="C:\Users\Lenovo\Documents\GitHub\moneyapp_cucumber_tests\Feature" />
       <recent name="C:\Users\Lenovo\IdeaProjects\MoneyAppTesting_Cucumber\Feature" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Toshiba\Aluve_Property_Management_1\Feature\GuestFeature" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="stepDefinition" />
@@ -655,7 +682,21 @@
       <option name="project" value="LOCAL" />
       <updated>1660833759789</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Verifying footer elements functionality">
+      <created>1660900765342</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1660900765342</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Verifying footer elements functionality">
+      <created>1660900773028</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1660900773028</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TestHistory">
