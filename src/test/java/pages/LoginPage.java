@@ -15,7 +15,7 @@ public class LoginPage {
     By password = By.xpath("//input[@placeholder='Password']");
     By loginButton = By.xpath("//input[@type=\"submit\"]");
     By loginPageHeader = By.xpath("//h1[text()='Log In Page']");
-    By loggedInHeader = By.xpath("//div[@class='profile-top']/descendant::h5[text()='Calendar']");
+
 
 
     public LoginPage(WebDriver driver) {
@@ -39,7 +39,7 @@ public class LoginPage {
     public boolean isUserLoggedIn() {
         try {
             WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-            wait.until(ExpectedConditions.presenceOfElementLocated(loggedInHeader));
+            wait.until(ExpectedConditions.presenceOfElementLocated(CalendarPage.calendarHeader));
             return true;
         } catch (Exception ex) {
             return false;
@@ -50,7 +50,7 @@ public class LoginPage {
         this.setPassword(password);
         this.clickLoginButton();
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-        wait.until(ExpectedConditions.presenceOfElementLocated(loggedInHeader));
+        wait.until(ExpectedConditions.presenceOfElementLocated(CalendarPage.calendarHeader));
     }
 
     public void OpenLoginPage() {

@@ -42,7 +42,7 @@ public class LoginTestSteps {
         loginPage.LoginUser(password);
     }
 
-    @Then("^User is redirected to the Dashboard page$")
+    @Then("^User is redirected to the calendar page$")
     public void user_is_redirected_to_the_Dashboard_page() {
         // Write code here that turns the phrase above into concrete actions
         boolean result = loginPage.isUserLoggedIn();

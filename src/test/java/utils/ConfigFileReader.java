@@ -56,7 +56,8 @@ public class ConfigFileReader {
 
 
     public String getApplicationUrl() {
-        String url = this.properties.getProperty("baseUrl");
+        String url = this.properties.getProperty("baseUrlAdmin");
+        // String url = this.properties.getProperty("baseUrlGuest");
         if (url != null) {
             return url;
         } else {
