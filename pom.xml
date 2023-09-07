@@ -7,6 +7,7 @@
     <groupId>Aluve-PMS-Testing</groupId>
     <artifactId>Aluve-PMS-Testing</artifactId>
     <version>1.0-SNAPSHOT</version>
+         <package>jar</package>
     <build>
         <plugins>
             <plugin>
